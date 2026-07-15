@@ -61,3 +61,7 @@ We combine advanced characterization techniques, including microscopy and micro-
 A major research direction of the SbM Lab is the development of Engineered Biopolymer Composite (EBC), a recyclable and low-carbon construction material that uses bio-derived polymers to bind granular materials. Through optimized processing, circular design, and intelligent monitoring, EBC demonstrates the potential to achieve mechanical performance comparable to conventional concrete while significantly reducing environmental impacts.
 
 By bridging materials science, civil engineering, sustainability, and artificial intelligence, the SbM Lab aims to create a future where construction materials are not only stronger and more sustainable, but also smart, circular, and adaptive components of tomorrow's infrastructure.
+
+<p style="font-size:1.25em; font-weight:700;">
+If you share our vision for a sustainable future, we would love to hear from you and explore opportunities for collaboration.
+</p>
