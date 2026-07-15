@@ -14,9 +14,13 @@ redirect_from:
 
 Welcome to our lab website!! 👋😊
 
-This is the front page of website for the Smart Building Materials (SbM) Lab led by Dr. Barney Haoyun Miao. The research group was formed in 2026 and is currently based at the University of Calgary. 
+This is the front page of website for the Smart Building Materials (SbM) Lab led by Dr. Barney Haoyun Miao. The research group was formed in July 2026 and is currently based at the University of Calgary. 
 
-The Smart Building Materials (SbM) Lab advances the next generation of construction materials through the integration of nature-inspired material design, artificial intelligence, sensing technologies, and circular manufacturing strategies. Our mission is to develop affordable, high-performance, and environmentally responsible materials that enable a transition toward a decarbonized and resilient built environment.
+Why Smart Building Materials (SbM)? The word **"Smart"** in SbM represents more than just digital technology. It reflects our vision for the future of construction: materials that are **smart by design, smart by manufacturing, and smart throughout their lifetime**. We develop **smart materials** by creating affordable, low-carbon alternatives to conventional construction materials. We enable **smart manufacturing** by integrating AI and non-destructive sensing to monitor and optimize material production. Finally, we support **smart infrastructure** by using data-driven approaches to predict performance and improve the resilience of built systems.
+
+By combining sustainable materials with artificial intelligence, the SbM-Lab is advancing the next generation of construction materials through the integration of nature-inspired material design, artificial intelligence, sensing technologies, and circular manufacturing strategies. Our mission is to develop affordable, high-performance, and environmentally responsible materials that enable a transition toward a decarbonized and resilient built environment.
+
+### **Overview of SbM-Lab**
 
 The construction industry is responsible for a significant portion of global carbon emissions, resource consumption, and material waste. To address these challenges, our research develops Smart Circular Building Materials (SCBM)—a closed-loop framework that integrates material innovation, lifecycle assessment, intelligent monitoring, and circularity to transform how construction materials are designed, manufactured, and reused.
 
