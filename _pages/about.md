@@ -9,7 +9,7 @@ redirect_from:
 
 <img src="{{ '/images/SBM_Logo.png' | relative_url }}" 
      alt="Smart Building Materials Lab Logo" 
-     style="display:block; margin:0 auto; width:1000px;">
+     style="display:block; margin:0 auto; width:1200px;">
 <br>
 
 Welcome to our lab website!! 👋😊
