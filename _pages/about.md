@@ -13,9 +13,26 @@ redirect_from:
 <br>
 
 Welcome to our lab website!! 👋😊
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+This is the front page of website for the Smart Building Materials (SbM) Lab led by Dr. Barney Haoyun Miao. The research group was formed in 2026 and is currently based at the University of Calgary. 
+
+The Smart Building Materials (SbM) Lab develops next-generation construction materials that combine sustainable materials science, circular manufacturing, artificial intelligence, and structural health monitoring to enable a low-carbon and resilient built environment.
+
+The construction industry contributes nearly 40% of global carbon emissions, motivating the need for innovative alternatives to conventional cement-based materials. Our research explores bio-based and circular construction materials derived from renewable resources and industrial waste streams, with the goal of creating affordable, durable, and scalable materials that reduce environmental impact while maintaining structural performance.
+
+Our research follows the Smart Circular Building Materials (SCBM) framework, integrating:
+
+🌱 Nature-inspired material design — developing cement-free biocomposites using sustainable binders such as lignin-based polymers.
+
+♻️ Circular manufacturing and life-cycle design — optimizing environmental performance, recyclability, and scalability.
+
+🤖 AI-enabled material intelligence — applying machine learning and data-driven approaches for material characterization, manufacturing optimization, and performance prediction.
+
+🔬 Multiscale characterization and modeling — linking microscale structure to macroscale mechanical behavior.
+
+A major focus of the SbM Lab is the development of Engineered Biopolymer Composite (EBC), a recyclable, low-carbon construction material that uses bio-derived polymers to bind granular materials and achieve mechanical performance comparable to conventional concrete. By integrating sensing technologies and artificial intelligence, we aim to create smart construction materials capable of monitoring their own manufacturing and performance throughout their life cycle.
+
+Through interdisciplinary research spanning materials science, civil engineering, sustainability, and artificial intelligence, the SbM Lab aims to accelerate the transition toward a decarbonized and equitable built environment.
 
 SbM-Lab
 ======
