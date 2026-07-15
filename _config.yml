@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Smart Building Materials (SbM) Lab"
 title_separator          : "-"
 name                     : &name "Your Name"
@@ -27,7 +27,7 @@ author:
   name             : "Barney H. Miao"
   position: "Assistant Professor"
   pronouns         : # example: "she/her"  
-  bio              : "Dr. Barney H. Miao is an Assistant Professor in Civil Engineering at the University of Calgary. He received his PhD in Civil and Environmental Engineering from Stanford University in 2026 with a PhD minor in Computer Science. He earned an MS in Structural Engineering from Stanford University in 2023 and a BSc in Civil Engineering with a minor in Structural Engineering in 2021. His research spans materials science, sustainability, and infrastructure health, with a focus on developing innovative cement-free construction materials. Through a systems-level approach to carbon-neutral infrastructure, he seeks to advance sustainable construction technologies that reduce environmental impact while improving the resilience and longevity of the built environment."
+  bio              : "Dr. Barney H. Miao is an Assistant Professor in Civil Engineering at the University of Calgary. He received his PhD in Civil and Environmental Engineering from Stanford University in 2026 with a PhD minor in Computer Science. He earned an MS in Structural Engineering from Stanford University in 2023 and a BSc in Civil Engineering with a minor in Structural Engineering in 2021"
   location         : "Calgary, Alberta, Canada"
   employer         : "University of Calgary"
   uri              : # URL
