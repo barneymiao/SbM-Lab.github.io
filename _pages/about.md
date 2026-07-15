@@ -20,6 +20,11 @@ The Smart Building Materials (SbM) Lab advances the next generation of construct
 
 The construction industry is responsible for a significant portion of global carbon emissions, resource consumption, and material waste. To address these challenges, our research develops Smart Circular Building Materials (SCBM)—a closed-loop framework that integrates material innovation, lifecycle assessment, intelligent monitoring, and circularity to transform how construction materials are designed, manufactured, and reused.
 
+<img src="{{ '/images/SCBM_Framework.png' | relative_url }}" 
+     alt="SCBM Research Framework" 
+     style="display:block; margin:0 auto; width:1200px;">
+<br>
+
 Our research focuses on five interconnected areas:
 
 🌱 Nature-Inspired Building Materials
