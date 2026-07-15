@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<h1 style="font-size: 3.2em; font-weight: 700;">
+<h1 style="font-size: 2.5em; font-weight: 700;">
 <span style="color:#2E7D32;">Smart</span>
 <span style="color:#D97706;">Building</span>
 <span style="color:#003B5C;">Materials</span>
