@@ -4,77 +4,52 @@ permalink: /people/
 author_profile: true
 ---
 
+# People
+
+The **Smart Building Materials (SbM) Lab** brings together researchers working at the intersection of sustainable materials, artificial intelligence, sensing technologies, and resilient infrastructure.
+
+---
+
 ## Principal Investigator
 
-<div style="display:flex; gap:40px; align-items:flex-start;">
+<div style="display:flex; align-items:center; gap:30px;">
 
-<div style="flex:0 0 250px;">
-
-<img src="{{ '/images/Profile_Picture.jpg' | relative_url }}" 
+<div>
+<img src="{{ '/assets/images/barney_miao.jpg' | relative_url }}"
      alt="Dr. Barney H. Miao"
-     style="width:250px; border-radius:10px;">
-
+     style="width:200px; border-radius:10px;">
 </div>
 
+<div>
 
-<div style="flex:1;">
+### [Dr. Barney H. Miao](/people/barney-miao/)
 
-<h3 style="margin-top:0;">
-<strong>Dr. Barney H. Miao</strong>
-</h3>
-
-<p>
-Assistant Professor<br>
-Department of Civil Engineering<br>
+Assistant Professor  
+Department of Civil Engineering  
 University of Calgary
-</p>
 
-<p>
-Dr. Barney H. Miao leads the Smart Building Materials (SbM) Lab, where his research focuses on developing sustainable, intelligent, and circular construction materials. His research integrates bio-based materials, artificial intelligence, non-destructive sensing, and computational modeling to enable a decarbonized and resilient built environment.
-</p>
-
-<p>
-His work has led to the development of novel lignin-based biopolymer composites and Engineered Biopolymer Composite (EBC), a low-carbon alternative to conventional construction materials.
-</p>
+Dr. Miao leads the SbM Lab, focusing on the development of sustainable, intelligent, and circular construction materials through bio-based materials science, artificial intelligence, sensing technologies, and computational modeling.
 
 </div>
 
 </div>
 
+---
+
+## Graduate Students
+
+### Coming soon
+
+The SbM Lab welcomes graduate students interested in sustainable construction materials, AI-enabled infrastructure, and smart manufacturing.
 
 ---
 
-## Education 🎓
+## Undergraduate Researchers
 
-**Ph.D. in Civil and Environmental Engineering**  
-Stanford University, 2026  
-Minor: Computer Science
-
-**M.S. in Structural Engineering**  
-Stanford University, 2023
-
-**B.Sc. in Civil Engineering**  
-Minor: Structural Engineering  
-2021
-
+### Coming soon
 
 ---
 
-## Affiliations 🤝
+## Alumni
 
-- University of Calgary — Department of Civil Engineering
-- Stanford University — Research collaborations
-- NASA Ames Research Center — Research collaborations
-- National Institute of Standards and Technology (NIST) — Research collaborations
-
-
----
-
-## Research Interests 🔬
-
-- Sustainable and circular construction materials
-- Bio-based composites and alternative binders
-- Artificial intelligence for materials engineering
-- Structural health monitoring
-- Life-cycle assessment and sustainable infrastructure
-- Smart manufacturing
+### Coming soon
