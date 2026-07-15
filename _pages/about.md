@@ -63,5 +63,7 @@ A major research direction of the SbM Lab is the development of Engineered Biopo
 By bridging materials science, civil engineering, sustainability, and artificial intelligence, the SbM Lab aims to create a future where construction materials are not only stronger and more sustainable, but also smart, circular, and adaptive components of tomorrow's infrastructure.
 
 <p style="font-size:1.25em; font-weight:700;">
-If you share our vision for a sustainable future, we would love to hear from you and explore opportunities for collaboration.
+If you share our vision for a sustainable future, we would love to hear from you and explore opportunities for collaboration!
+
+Also, check out available opportunities for the group!  
 </p>
