@@ -36,10 +36,12 @@ Dr. Barney H. Miao is an Assistant Professor in Civil Engineering at the Univers
 
 <p>
 Dr. Miao leads the 
-**<span style="color:#2E7D32; font-weight:700;">Smart</span>
-<span style="color:#D97706; font-weight:700;">Building</span>
-<span style="color:#003B5C; font-weight:700;">Materials</span>
-(<span style="color:#2E7D32; font-weight:700;">S</span><span style="color:#D97706; font-weight:700;">b</span><span style="color:#003B5C; font-weight:700;">M</span>)** **Lab**,
+<strong>
+<span style="color:#2E7D32;">Smart</span>
+<span style="color:#D97706;">Building</span>
+<span style="color:#003B5C;">Materials</span>
+(<span style="color:#2E7D32;">S</span><span style="color:#D97706;">b</span><span style="color:#003B5C;">M</span>) Lab
+</strong>,
 where his research focuses on developing sustainable, intelligent, and circular construction materials. His work integrates bio-based materials, artificial intelligence, non-destructive sensing, and computational modeling to enable a decarbonized and resilient built environment.
 </p>
 
