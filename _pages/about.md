@@ -35,7 +35,7 @@ By combining sustainable materials with artificial intelligence, the **<span sty
 
 ---
 <img src="{{ '/images/SBM_Collab_Overview.png' | relative_url }}" 
-     alt="Smart Building Materials Lab Logo" 
+     alt="SBM_Collab_Overview" 
      style="display:block; margin:0 auto; width:1200px;">
 <br>
   
