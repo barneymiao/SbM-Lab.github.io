@@ -26,7 +26,9 @@ author_profile: false
 <p>
 Assistant Professor<br>
 Department of Civil Engineering<br>
-University of Calgary
+University of Calgary [<a href="https://profiles.ucalgary.ca/user/38106" target="_blank">
+University of Calgary Faculty Profile
+</a>]
 </p>
 
 <p>
