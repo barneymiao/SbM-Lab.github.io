@@ -45,6 +45,7 @@ By combining sustainable materials with artificial intelligence, the **<span sty
 - Prof. Michael D. Lepech (Stanford University)
 - Dr. David Loftus (NASA Ames Research Center)
 - Prof. Yiwen Dong (University of Illinois-Urbana Champaign)
+- Prof. Rahil Khosnazar (University of Calgary)
 - Prof. Hae Young Noh (Stanford University)
 - Prof. Andreas Theissler (Justus Liebig Univeristy Giessen)
   
