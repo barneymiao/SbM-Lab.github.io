@@ -7,7 +7,13 @@ redirect_from:
   - /resume
 ---
 
+
 {% include base_path %}
+
+<div class="cv-download-links">
+  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
+  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
+</div>
 
 <style>
   /* Clean Minimalist Timeline */
@@ -241,6 +247,170 @@ Service & Leadership
     font-size: 0.9em;
   }
 </style>
+
+Awards
+======
+
+<style>
+  .awards-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0;
+  }
+
+  .award-item {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 18px;
+    line-height: 1.4;
+  }
+
+  /* Custom clean award bullet */
+  .award-item::before {
+    content: "🏆";
+    font-size: 0.95em;
+    position: absolute;
+    left: 0;
+    top: 1px;
+  }
+
+  .award-year {
+    font-weight: 700;
+    color: #003B5C; /* Calgary Blue */
+    display: inline-block;
+    width: 50px;
+  }
+
+  .award-details {
+    display: inline;
+    color: #333;
+  }
+
+  .award-title {
+    font-weight: 600;
+  }
+
+  .award-org {
+    color: #666;
+    font-style: italic;
+  }
+</style>
+
+<ul class="awards-list">
+
+  <li class="award-item">
+    <span class="award-year">2026</span>
+    <span class="award-details">
+      <span class="award-title">Craig F. Bohren Best Student Presentation Award (1st Place)</span>, 
+      <span class="award-org">SPIE Smart Structures + Nondestructive Evaluation</span>
+    </span>
+  </li>
+
+  <li class="award-item">
+    <span class="award-year">2024</span>
+    <span class="award-details">
+      <span class="award-title">Best Poster Award</span>, 
+      <span class="award-org">Stanford Doerr School of Sustainability Research Review</span>
+    </span>
+  </li>
+
+  <li class="award-item">
+    <span class="award-year">2024</span>
+    <span class="award-details">
+      <span class="award-title">Leavell Fellowship on Sustainable Built Environment</span>, 
+      <span class="award-org">Stanford Department of Civil and Environmental Engineering</span>
+    </span>
+  </li>
+
+  <li class="award-item">
+    <span class="award-year">2022</span>
+    <span class="award-details">
+      <span class="award-title">Best Poster (Runner-Up)</span>, 
+      <span class="award-org">9th ACM International Conference for Energy Efficient Buildings, Cities, and Transportation (BuildSys '22)</span>
+    </span>
+  </li>
+
+  <li class="award-item">
+    <span class="award-year">2021</span>
+    <span class="award-details">
+      <span class="award-title">School of Engineering Graduate Fellowship</span>, 
+      <span class="award-org">Stanford Department of Civil & Environmental Engineering</span>
+    </span>
+  </li>
+
+  <li class="award-item">
+    <span class="award-year">2020</span>
+    <span class="award-details">
+      <span class="award-title">NSERC Research Award</span>, 
+      <span class="award-org">Natural Sciences and Engineering Research Council of Canada (NSERC)</span>
+    </span>
+  </li>
+
+  <li class="award-item">
+    <span class="award-year">2020</span>
+    <span class="award-details">
+      <span class="award-title">Louise McKinney Scholarship</span>, 
+      <span class="award-org">Government of Alberta</span>
+    </span>
+  </li>
+
+  <li class="award-item">
+    <span class="award-year">2020</span>
+    <span class="award-details">
+      <span class="award-title">Alex Bakshan Memorial Scholarship</span>, 
+      <span class="award-org">Alberta Chapter of the American Concrete Institute (ACI)</span>
+    </span>
+  </li>
+
+  <li class="award-item">
+    <span class="award-year">2020</span>
+    <span class="award-details">
+      <span class="award-title">Japex/Jacos Scholarship in Engineering</span>, 
+      <span class="award-org">Japex</span>
+    </span>
+  </li>
+
+  <li class="award-item">
+    <span class="award-year">2019</span>
+    <span class="award-details">
+      <span class="award-title">Calgary Construction Association (CCA) Member's Scholarship</span>, 
+      <span class="award-org">Calgary Construction Association (CCA)</span>
+    </span>
+  </li>
+
+  <li class="award-item">
+    <span class="award-year">2019</span>
+    <span class="award-details">
+      <span class="award-title">Canadian Society for Civil Engineering Scholarship</span>, 
+      <span class="award-org">Canadian Society for Civil Engineering (Calgary Section)</span>
+    </span>
+  </li>
+
+  <li class="award-item">
+    <span class="award-year">2018</span>
+    <span class="award-details">
+      <span class="award-title">TransAlta Corporation Memorial Scholarship</span>, 
+      <span class="award-org">TransAlta</span>
+    </span>
+  </li>
+
+  <li class="award-item">
+    <span class="award-year">2018</span>
+    <span class="award-details">
+      <span class="award-title">Jason Lang Scholarship</span>, 
+      <span class="award-org">Government of Alberta</span>
+    </span>
+  </li>
+
+  <li class="award-item">
+    <span class="award-year">2017</span>
+    <span class="award-details">
+      <span class="award-title">Alexander Rutherford Scholarship</span>, 
+      <span class="award-org">Government of Alberta</span>
+    </span>
+  </li>
+
+</ul>
 
 <div class="service-category">
   <div class="service-title">Journal Peer Review</div>
