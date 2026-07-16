@@ -198,58 +198,8 @@ Work Experience
   </li>
 
 </ul>
-  
-Service & Leadership
-======
 
-<style>
-  .service-category {
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-  
-  .service-title {
-    font-weight: 600;
-    font-size: 1.2em;
-    color: #333;
-    margin-bottom: 8px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 4px;
-  }
-
-  .service-list {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-  }
-
-  .service-item {
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 8px;
-    font-size: 1.0em;
-    color: #444;
-  }
-
-  /* Custom clean bullet to match the blue accents */
-  .service-item::before {
-    content: "•";
-    color: #003B5C;
-    font-weight: bold;
-    font-size: 1.2em;
-    position: absolute;
-    left: 3px;
-    top: -2px;
-  }
-
-  .if-badge {
-    font-weight: 600;
-    color: #003B5C;
-    font-size: 0.9em;
-  }
-</style>
-
-Awards & Scholarships
+  Awards & Scholarships
 ======
 
 <style>
@@ -437,6 +387,57 @@ Awards & Scholarships
   </li>
 
 </ul>
+
+Service & Leadership
+======
+
+<style>
+  .service-category {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .service-title {
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+  }
+
+  .service-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .service-item {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    font-size: 1.0em;
+    color: #444;
+  }
+
+  /* Custom clean bullet to match the blue accents */
+  .service-item::before {
+    content: "•";
+    color: #003B5C;
+    font-weight: bold;
+    font-size: 1.2em;
+    position: absolute;
+    left: 3px;
+    top: -2px;
+  }
+
+  .if-badge {
+    font-weight: 600;
+    color: #003B5C;
+    font-size: 0.9em;
+  }
+</style>
+
 <div class="service-category">
   <div class="service-title">Journal Peer Review</div>
   <ul class="service-list">
