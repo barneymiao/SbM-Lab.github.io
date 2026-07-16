@@ -28,87 +28,10 @@ Why Smart Building Materials (SbM)? The word **"Smart"** in SbM represents more 
 By combining sustainable materials with artificial intelligence, the SbM-Lab is advancing the next generation of construction materials through the integration of nature-inspired material design, artificial intelligence, sensing technologies, and circular manufacturing strategies. Our mission is to develop affordable, high-performance, and environmentally responsible materials that enable a transition toward a decarbonized and resilient built environment.
 
 ---
-
-## 📊 SbM Lab at a Glance
-
-<div style="display:flex; justify-content:center; align-items:center; flex-wrap:wrap; margin:40px 0;">
-
-  <!-- Total Publications -->
-  <div style="text-align:center; padding:0 40px;">
-    <h1 style="margin:0; color:#003B5C;">16+</h1>
-    <strong>Total Publications</strong>
-  </div>
-
-  <!-- Vertical Divider -->
-  <div style="width:2px; height:90px; background:#d3d3d3; margin:0 25px;"></div>
-
-  <!-- Breakdown -->
-  <div style="display:flex; gap:50px; flex-wrap:wrap; justify-content:center;">
-
-    <div style="text-align:center;">
-      <h2 style="margin:0; color:#003B5C;">12+</h2>
-      Journal Papers
-    </div>
-
-    <div style="text-align:center;">
-      <h2 style="margin:0; color:#003B5C;">4+</h2>
-      Conference Papers
-    </div>
-
-    <div style="text-align:center;">
-      <h2 style="margin:0; color:#003B5C;">1</h2>
-      Patent
-    </div>
-
-  </div>
-
-</div>
-
----
-
-## 🤝 Collaborating Institutions
-
-<div style="display:flex; justify-content:center; align-items:center; gap:45px; flex-wrap:wrap; margin:30px 0;">
-
-  <img src="{{ '/assets/images/logos/stanford.png' | relative_url }}" height="60" alt="Stanford University">
-
-  <img src="{{ '/assets/images/logos/ucalgary.png' | relative_url }}" height="60" alt="University of Calgary">
-
-  <img src="{{ '/assets/images/logos/nasa.png' | relative_url }}" height="60" alt="NASA">
-
-  <img src="{{ '/assets/images/logos/nist.png' | relative_url }}" height="60" alt="NIST">
-
-  <img src="{{ '/assets/images/logos/uiuc.png' | relative_url }}" height="60" alt="University of Illinois Urbana-Champaign">
-
-</div>
-
----
-
-## 🌍 Countries
-
-<div style="display:flex; justify-content:center; gap:60px; flex-wrap:wrap; text-align:center; margin:30px 0;">
-
-  <div>
-    <div style="font-size:48px;">🇨🇦</div>
-    <strong>Canada</strong>
-  </div>
-
-  <div>
-    <div style="font-size:48px;">🇺🇸</div>
-    <strong>United States</strong>
-  </div>
-
-  <div>
-    <div style="font-size:48px;">🇧🇩</div>
-    <strong>Bangladesh</strong>
-  </div>
-
-  <div>
-    <div style="font-size:48px;">🇯🇵</div>
-    <strong>Japan</strong>
-  </div>
-
-</div>
+<img src="{{ '/images/SBM_Collab_Overview.png' | relative_url }}" 
+     alt="Smart Building Materials Lab Logo" 
+     style="display:block; margin:0 auto; width:1200px;">
+<br>
   
 ### **Overview of SbM-Lab**
 
