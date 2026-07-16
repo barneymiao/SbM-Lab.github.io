@@ -59,7 +59,7 @@ His research has led to the development of novel lignin-based biopolymer composi
 
 **Coming soon**
 
-The **<span style="color:#2E7D32; font-weight:700;">S</span><span style="color:#D97706; font-weight:700;">b</span><span style="color:#003B5C; font-weight:700;">M</span>-Lab** welcomes graduate students interested in sustainable construction materials, AI-enabled infrastructure, and smart manufacturing.
+The **<span style="color:#2E7D32; font-weight:700;">S</span><span style="color:#D97706; font-weight:700;">b</span><span style="color:#003B5C; font-weight:700;">M</span>-Lab** welcomes graduate students interested in sustainable construction materials, AI-enabled infrastructure, and smart manufacturing. Please check out soon for more details!!
 
 ---
 
