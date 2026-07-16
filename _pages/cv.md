@@ -9,12 +9,89 @@ redirect_from:
 
 {% include base_path %}
 
+<style>
+  /* Clean Minimalist Timeline */
+  .education-timeline {
+    position: relative;
+    margin: 30px 0 30px 15px;
+    padding: 0;
+    list-style: none;
+    border-left: 2px solid #003B5C; /* Matches your UCalgary blue */
+  }
+
+  .education-timeline-item {
+    position: relative;
+    margin-bottom: 25px;
+    padding-left: 25px;
+  }
+
+  /* Timeline Dot */
+  .education-timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #003B5C;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #003B5C;
+  }
+
+  .edu-year {
+    font-weight: 700;
+    color: #003B5C;
+    font-size: 1.05em;
+    margin-bottom: 2px;
+  }
+
+  .edu-degree {
+    font-weight: 600;
+    font-size: 1.15em;
+    margin: 0 0 3px 0;
+    color: #333;
+  }
+
+  .edu-inst {
+    font-size: 0.95em;
+    color: #666;
+    margin: 0;
+  }
+
+  .edu-details {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 4px;
+    font-style: italic;
+  }
+</style>
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
+<ul class="education-timeline">
+  
+  <li class="education-timeline-item">
+    <div class="edu-year">2026</div>
+    <div class="edu-degree">Ph.D. in Civil and Environmental Engineering</div>
+    <div class="edu-inst">Stanford University</div>
+    <div class="edu-details">Minor in Computer Science</div>
+  </li>
+
+  <li class="education-timeline-item">
+    <div class="edu-year">2023</div>
+    <div class="edu-degree">M.S. in Structural Engineering</div>
+    <div class="edu-inst">Stanford University</div>
+  </li>
+
+  <li class="education-timeline-item">
+    <div class="edu-year">2021</div>
+    <div class="edu-degree">B.Sc. in Civil Engineering</div>
+    <div class="edu-inst">University of Calgary</div>
+  </li>
+
+</ul>
 Work experience
 ======
 * Spring 2024: Academic Pages Collaborator
