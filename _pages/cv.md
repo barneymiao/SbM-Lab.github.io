@@ -73,41 +73,101 @@ Education
 <ul class="education-timeline">
   
   <li class="education-timeline-item">
-    <div class="edu-year">2026</div>
+    <div class="edu-year">April 2023 - June 2026</div>
     <div class="edu-degree">Ph.D. in Civil and Environmental Engineering</div>
     <div class="edu-inst">Stanford University</div>
     <div class="edu-details">Minor in Computer Science</div>
   </li>
 
   <li class="education-timeline-item">
-    <div class="edu-year">2023</div>
+    <div class="edu-year"> September 2021 - April 2023</div>
     <div class="edu-degree">M.S. in Structural Engineering</div>
     <div class="edu-inst">Stanford University</div>
   </li>
 
   <li class="education-timeline-item">
-    <div class="edu-year">2021</div>
+    <div class="edu-year">September 2017 - May 2021</div>
     <div class="edu-degree">B.Sc. in Civil Engineering</div>
     <div class="edu-inst">University of Calgary</div>
+    <div class="edu-details">Minor in Structural Engineering</div>
   </li>
 
 </ul>
-Work experience
+
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+<style>
+  /* Work Experience Timeline */
+  .experience-timeline {
+    position: relative;
+    margin: 30px 0 30px 15px;
+    padding: 0;
+    list-style: none;
+    border-left: 2px solid #003B5C; /* Matching UCalgary Blue */
+  }
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  .experience-timeline-item {
+    position: relative;
+    margin-bottom: 25px;
+    padding-left: 25px;
+  }
+
+  /* Timeline Dot with Pulse Effect for Current Role */
+  .experience-timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #003B5C;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #003B5C;
+  }
+
+  .exp-date {
+    font-weight: 700;
+    color: #003B5C;
+    font-size: 1.05em;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .exp-title {
+    font-weight: 600;
+    font-size: 1.15em;
+    margin: 0 0 3px 0;
+    color: #333;
+  }
+
+  .exp-inst {
+    font-size: 0.95em;
+    color: #555;
+    margin: 0;
+    font-weight: 500;
+  }
+
+  .exp-dept {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 2px;
+    font-style: italic;
+  }
+</style>
+
+<ul class="experience-timeline">
+
+  <li class="experience-timeline-item">
+    <div class="exp-date">Aug 2026 – Present</div>
+    <div class="exp-title">Assistant Professor</div>
+    <div class="exp-inst">University of Calgary</div>
+    <div class="exp-dept">Department of Civil Engineering</div>
+  </li>
+
+</ul>
   
 Skills
 ======
