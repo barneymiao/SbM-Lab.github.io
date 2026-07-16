@@ -48,16 +48,6 @@ By combining sustainable materials with artificial intelligence, the **<span sty
 - Prof. Hae Young Noh (Stanford University)
 - Prof. Andreas Theissler (Justus Liebig Univeristy Giessen)
   
-<!-- Past Collaborations -->
-<div style="text-align:center; margin-top:30px;">
-  <strong style="font-size:1.2em; color:#003B5C;">
-    Past Collaborations:
-  </strong>
-  <span style="font-size:1.2em;">
-    Shell &nbsp; | &nbsp; National Institute of Standards (NIST)
-  </span>
-</div>
-
 ### **Overview of <span style="color:#2E7D32; font-weight:700;">S</span><span style="color:#D97706; font-weight:700;">b</span><span style="color:#003B5C; font-weight:700;">M</span>-Lab**
 
 The construction industry is responsible for a significant portion of global carbon emissions, resource consumption, and material waste. To address these challenges, our research develops Smart Circular Building Materials (SCBM)—a closed-loop framework that integrates material innovation, lifecycle assessment, intelligent monitoring, and circularity to transform how construction materials are designed, manufactured, and reused.
