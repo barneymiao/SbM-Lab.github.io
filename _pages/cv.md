@@ -248,26 +248,45 @@ Service & Leadership
   }
 </style>
 
-Awards
+Awards & Scholarships
 ======
 
 <style>
+  .awards-subheading {
+    font-weight: 600;
+    font-size: 1.25em;
+    color: #333;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+  }
+
   .awards-list {
     list-style: none;
     padding-left: 0;
-    margin: 20px 0;
+    margin: 15px 0;
   }
 
   .award-item {
     position: relative;
     padding-left: 25px;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
     line-height: 1.4;
   }
 
-  /* Custom clean award bullet */
-  .award-item::before {
+  /* Award Symbol */
+  .award-item.trophy::before {
     content: "🏆";
+    font-size: 0.95em;
+    position: absolute;
+    left: 0;
+    top: 1px;
+  }
+
+  /* Scholarship Symbol */
+  .award-item.scholarship::before {
+    content: "🎓";
     font-size: 0.95em;
     position: absolute;
     left: 0;
@@ -296,9 +315,10 @@ Awards
   }
 </style>
 
+<div class="awards-subheading">Awards & Fellowships</div>
 <ul class="awards-list">
 
-  <li class="award-item">
+  <li class="award-item trophy">
     <span class="award-year">2026</span>
     <span class="award-details">
       <span class="award-title">Craig F. Bohren Best Student Presentation Award (1st Place)</span>, 
@@ -306,7 +326,7 @@ Awards
     </span>
   </li>
 
-  <li class="award-item">
+  <li class="award-item trophy">
     <span class="award-year">2024</span>
     <span class="award-details">
       <span class="award-title">Best Poster Award</span>, 
@@ -314,7 +334,7 @@ Awards
     </span>
   </li>
 
-  <li class="award-item">
+  <li class="award-item trophy">
     <span class="award-year">2024</span>
     <span class="award-details">
       <span class="award-title">Leavell Fellowship on Sustainable Built Environment</span>, 
@@ -322,7 +342,7 @@ Awards
     </span>
   </li>
 
-  <li class="award-item">
+  <li class="award-item trophy">
     <span class="award-year">2022</span>
     <span class="award-details">
       <span class="award-title">Best Poster (Runner-Up)</span>, 
@@ -330,7 +350,7 @@ Awards
     </span>
   </li>
 
-  <li class="award-item">
+  <li class="award-item trophy">
     <span class="award-year">2021</span>
     <span class="award-details">
       <span class="award-title">School of Engineering Graduate Fellowship</span>, 
@@ -338,7 +358,7 @@ Awards
     </span>
   </li>
 
-  <li class="award-item">
+  <li class="award-item trophy">
     <span class="award-year">2020</span>
     <span class="award-details">
       <span class="award-title">NSERC Research Award</span>, 
@@ -346,7 +366,12 @@ Awards
     </span>
   </li>
 
-  <li class="award-item">
+</ul>
+
+<div class="awards-subheading">Scholarships</div>
+<ul class="awards-list">
+
+  <li class="award-item scholarship">
     <span class="award-year">2020</span>
     <span class="award-details">
       <span class="award-title">Louise McKinney Scholarship</span>, 
@@ -354,7 +379,7 @@ Awards
     </span>
   </li>
 
-  <li class="award-item">
+  <li class="award-item scholarship">
     <span class="award-year">2020</span>
     <span class="award-details">
       <span class="award-title">Alex Bakshan Memorial Scholarship</span>, 
@@ -362,7 +387,7 @@ Awards
     </span>
   </li>
 
-  <li class="award-item">
+  <li class="award-item scholarship">
     <span class="award-year">2020</span>
     <span class="award-details">
       <span class="award-title">Japex/Jacos Scholarship in Engineering</span>, 
@@ -370,7 +395,7 @@ Awards
     </span>
   </li>
 
-  <li class="award-item">
+  <li class="award-item scholarship">
     <span class="award-year">2019</span>
     <span class="award-details">
       <span class="award-title">Calgary Construction Association (CCA) Member's Scholarship</span>, 
@@ -378,7 +403,7 @@ Awards
     </span>
   </li>
 
-  <li class="award-item">
+  <li class="award-item scholarship">
     <span class="award-year">2019</span>
     <span class="award-details">
       <span class="award-title">Canadian Society for Civil Engineering Scholarship</span>, 
@@ -386,7 +411,7 @@ Awards
     </span>
   </li>
 
-  <li class="award-item">
+  <li class="award-item scholarship">
     <span class="award-year">2018</span>
     <span class="award-details">
       <span class="award-title">TransAlta Corporation Memorial Scholarship</span>, 
@@ -394,7 +419,7 @@ Awards
     </span>
   </li>
 
-  <li class="award-item">
+  <li class="award-item scholarship">
     <span class="award-year">2018</span>
     <span class="award-details">
       <span class="award-title">Jason Lang Scholarship</span>, 
@@ -402,7 +427,7 @@ Awards
     </span>
   </li>
 
-  <li class="award-item">
+  <li class="award-item scholarship">
     <span class="award-year">2017</span>
     <span class="award-details">
       <span class="award-title">Alexander Rutherford Scholarship</span>, 
@@ -411,7 +436,6 @@ Awards
   </li>
 
 </ul>
-
 <div class="service-category">
   <div class="service-title">Journal Peer Review</div>
   <ul class="service-list">
