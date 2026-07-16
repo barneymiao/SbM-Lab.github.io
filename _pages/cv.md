@@ -76,7 +76,10 @@ Education
     <div class="edu-year">April 2023 - June 2026</div>
     <div class="edu-degree">Ph.D. in Civil and Environmental Engineering</div>
     <div class="edu-inst">Stanford University</div>
-    <div class="edu-details">Minor in Computer Science</div>
+    <div class="edu-details">
+      Minor in Computer Science <br>
+      Advisor: Michael D. Lepech
+    </div>
   </li>
 
   <li class="education-timeline-item">
