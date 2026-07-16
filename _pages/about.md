@@ -39,6 +39,15 @@ By combining sustainable materials with artificial intelligence, the **<span sty
      style="display:block; margin:0 auto; width:1200px;">
      
 <br>
+
+### Academic Collaborators
+
+- Prof. Michael D. Lepech (Stanford University)
+- Dr. David Loftus (NASA Ames Research Center)
+- Prof. Yiwen Dong (University of Illinois-Urbana Champaign)
+- Prof. Hae Young Noh (Stanford University)
+- Prof. Andreas Theissler (Justus Liebig Univeristy Giessen)
+  
 <!-- Past Collaborations -->
 <div style="text-align:center; margin-top:30px;">
   <strong style="font-size:1.2em; color:#003B5C;">
