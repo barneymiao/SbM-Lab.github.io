@@ -6,51 +6,51 @@ author_profile: false
 
 ## Principal Investigator
 
-<div style="display:flex; gap:40px; align-items:flex-start;">
+<div style="display:flex; gap:40px; align-items:flex-start; margin-bottom:40px;">
 
 <div style="flex:0 0 250px;">
 
-<img src="{{ '/images/Profile_Picture.jpg' | relative_url }}" 
+<img src="{{ '/images/Profile_Picture.jpg' | relative_url }}"
      alt="Dr. Barney H. Miao"
      style="width:250px; border-radius:10px;">
 
 </div>
 
-
 <div style="flex:1;">
 
-<h3 style="margin-top:0;">
+<h3 style="margin-top:0; margin-bottom:10px;">
 <strong>Dr. Barney H. Miao</strong>
 </h3>
 
-<p>
+<p style="margin-top:0;">
 Assistant Professor<br>
-Department of Civil Engineering<br>
-University of Calgary [<a href="https://profiles.ucalgary.ca/user/38106" target="_blank">
-University of Calgary Faculty Profile
-</a>]
+<a href="https://profiles.ucalgary.ca/user/38106" target="_blank">
+Department of Civil Engineering
+</a><br>
+University of Calgary
 </p>
 
 <p>
-
-Dr. Barney H. Miao is an Assistant Professor in Civil Engineering at the University of Calgary. He received his PhD in Civil and Environmental Engineering from Stanford University in 2026 with a PhD minor in Computer Science. He earned an MS in Structural Engineering from Stanford University in 2023 and a BSc in Civil Engineering in 2021.
-
-<p>
-
-Dr. Miao leads the Smart Building Materials (SbM) Lab, where his research focuses on developing sustainable, intelligent, and circular construction materials. His research integrates bio-based materials, artificial intelligence, non-destructive sensing, and computational modeling to enable a decarbonized and resilient built environment.
+Dr. Barney H. Miao is an Assistant Professor in Civil Engineering at the University of Calgary. He received his Ph.D. in Civil and Environmental Engineering from Stanford University in 2026, with a Ph.D. minor in Computer Science. He previously earned an M.S. in Structural Engineering from Stanford University in 2023 and a B.Sc. in Civil Engineering in 2021.
 </p>
 
 <p>
-His work has led to the development of novel lignin-based biopolymer composites and Engineered Biopolymer Composite (EBC), a carbon-negative alternative to conventional cementitious building materials.
+Dr. Miao leads the Smart Building Materials (SbM) Lab, where his research focuses on developing sustainable, intelligent, and circular construction materials. His work integrates bio-based materials, artificial intelligence, non-destructive sensing, and computational modeling to enable a decarbonized and resilient built environment.
+</p>
+
+<p>
+His research has led to the development of novel lignin-based biopolymer composites and Engineered Biopolymer Composite (EBC), a carbon-negative alternative to conventional cementitious construction materials.
 </p>
 
 </div>
 
 </div>
+
+---
 
 ## Graduate Students
 
-### Coming soon
+**Coming soon**
 
 The SbM Lab welcomes graduate students interested in sustainable construction materials, AI-enabled infrastructure, and smart manufacturing.
 
@@ -58,9 +58,7 @@ The SbM Lab welcomes graduate students interested in sustainable construction ma
 
 ## Undergraduate Researchers
 
-### Coming soon
-
----
+**Coming soon**
 
 ## Alumni
 
