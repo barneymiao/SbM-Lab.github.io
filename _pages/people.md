@@ -35,7 +35,10 @@ Dr. Barney H. Miao is an Assistant Professor in Civil Engineering at the Univers
 </p>
 
 <p>
-Dr. Miao leads the Smart Building Materials (SbM) Lab, where his research focuses on developing sustainable, intelligent, and circular construction materials. His work integrates bio-based materials, artificial intelligence, non-destructive sensing, and computational modeling to enable a decarbonized and resilient built environment.
+Dr. Miao leads the **<span style="color:#2E7D32; font-weight:700;">Smart</span>
+<span style="color:#D97706; font-weight:700;">Building</span>
+<span style="color:#003B5C; font-weight:700;">Materials</span>
+(<span style="color:#2E7D32; font-weight:700;">S</span><span style="color:#D97706; font-weight:700;">b</span><span style="color:#003B5C; font-weight:700;">M</span>) Lab**, where his research focuses on developing sustainable, intelligent, and circular construction materials. His work integrates bio-based materials, artificial intelligence, non-destructive sensing, and computational modeling to enable a decarbonized and resilient built environment.
 </p>
 
 <p>
@@ -52,7 +55,7 @@ His research has led to the development of novel lignin-based biopolymer composi
 
 **Coming soon**
 
-The SbM Lab welcomes graduate students interested in sustainable construction materials, AI-enabled infrastructure, and smart manufacturing.
+The **<span style="color:#2E7D32; font-weight:700;">S</span><span style="color:#D97706; font-weight:700;">b</span><span style="color:#003B5C; font-weight:700;">M</span>-Lab** welcomes graduate students interested in sustainable construction materials, AI-enabled infrastructure, and smart manufacturing.
 
 ---
 
