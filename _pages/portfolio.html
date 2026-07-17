@@ -101,6 +101,30 @@ author_profile: true
     border: 1px solid #e2e8f0;
     border-left-width: 5px;
   }
+
+  /* Style for DOI / Publisher Link button */
+  .paper-doi-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #f0fdf4; /* Light green tint */
+    color: #166534; /* Deep green text */
+    border: 1px solid #bbf7d0;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-decoration: none !important;
+    margin-top: 12px;
+    margin-right: 8px;
+    transition: all 0.15s ease;
+  }
+
+  .paper-doi-btn:hover {
+    background-color: #dcfce7;
+    color: #14532d;
+    border-color: #86efac;
+  }
 </style>
 
 ### **Overview of <span style="color:#2E7D32; font-weight:700;">S</span><span style="color:#D97706; font-weight:700;">b</span><span style="color:#003B5C; font-weight:700;">M</span>-Lab**
@@ -120,18 +144,18 @@ Our research focuses on five interconnected areas:
   
   <div class="project-list">
     
-    <!-- PROJECT 1 (Original, Non-Clickable Title + Paper PDF Button) -->
+<!-- PROJECT 1 (Original, Non-Clickable Title + PDF & DOI Buttons) -->
     <div class="project-card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
       <!-- Project Image (Left) -->
       <div style="flex: 1 1 200px; max-width: 250px; min-width: 180px;">
-        <img src="image_agent_tag_4933561244988037763" alt="Lignin chemical pathways and materials synthesis diagram" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
+        <img src="{{ '/images/Lignin_Paper.png' | relative_url }}" alt="Lignin-based biopolymer-bound soil composite" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
       </div>
       
       <!-- Project Text (Right) -->
       <div style="flex: 2 1 350px;">
         <!-- Regular Static Title Header -->
         <div class="project-title" style="margin-top: 0; margin-bottom: 8px; font-weight: 700; color: #334155; font-size: 1.1em;">
-          Tailored Lignin-Based Biopolymer-Bound Soil Composites (BSCs)
+          Development of Lignin-Based Biopolymer-Bound Soil Composite
         </div>
         <p class="project-body" style="margin-bottom: 10px;">
           To mitigate the environmental impact of concrete production—which generates 8% of global carbon emissions—this project introduces a sustainable, cement-free construction material: lignin-based Biopolymer-Bound Soil Composite (BSC). Utilizing low-cost, industrial byproducts (hydrolysis and alkali lignin), we formulated ten distinct mix designs to establish predictive relationships between composition, density, and strength.
@@ -140,10 +164,18 @@ Our research focuses on five interconnected areas:
           The resulting composites achieved compressive strengths ranging from 1.6 to 8.1 MPa. These parameters demonstrate the material's viability for immediate deployment in non-structural, low-carbon building applications, establishing a clear design methodology for scalable, green alternatives to traditional soil stabilizers.
         </p>
 
-        <!-- Link to Paper PDF -->
-        <a href="{{ '/files/lignin-bsc-paper.pdf' | relative_url }}" class="paper-pdf-btn" target="_blank">
-          📄 View Paper PDF
-        </a>
+        <!-- Document Links -->
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+          <!-- Link to Journal DOI -->
+          <a href="https://doi.org/10.1016/j.clema.2024.100279" class="paper-doi-btn" target="_blank">
+            🔗 View Publisher DOI
+          </a>
+
+          <!-- Link to Paper PDF -->
+          <a href="{{ '/files/Miao et al. - 2024 - Development of biopolymer composites using lignin A sustainable technology for fostering a green transition in the construction sector.pdf' | relative_url }}" class="paper-pdf-btn" target="_blank">
+            📄 View Paper PDF
+          </a>
+        </div>
       </div>
     </div>
 
