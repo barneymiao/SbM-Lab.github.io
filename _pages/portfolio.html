@@ -1,49 +1,188 @@
 ---
 layout: archive
-title: "research"
+title: "Research"
 permalink: /research/
 author_profile: true
 ---
+
+{% include base_path %}
+
+<style>
+  /* Theme Blocks Container */
+  .theme-block {
+    background-color: #f8f9fa;
+    border-left: 5px solid #003B5C; /* Calgary Blue accent */
+    border-radius: 4px;
+    padding: 25px;
+    margin-bottom: 35px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+
+  .theme-title {
+    color: #003B5C;
+    margin-top: 0 !important;
+    font-size: 1.4em;
+    font-weight: 700;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+  }
+
+  .theme-desc {
+    font-size: 1.05em;
+    color: #4a5568;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  /* Projects Grid Inside Themes */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .project-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 18px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .project-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-color: #cbd5e1;
+  }
+
+  .project-title {
+    font-weight: 700;
+    color: #334155;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+  }
+
+  .project-body {
+    font-size: 0.95em;
+    color: #64748b;
+    margin: 0;
+    line-height: 1.4;
+  }
+</style>
 
 ### **Overview of <span style="color:#2E7D32; font-weight:700;">S</span><span style="color:#D97706; font-weight:700;">b</span><span style="color:#003B5C; font-weight:700;">M</span>-Lab**
 
 The construction industry is responsible for a significant portion of global carbon emissions, resource consumption, and material waste. To address these challenges, our research develops Smart Circular Building Materials (SCBM)—a closed-loop framework that integrates material innovation, lifecycle assessment, intelligent monitoring, and circularity to transform how construction materials are designed, manufactured, and reused.
 
-<img src="{{ '/images/SCBM_Framework.png' | relative_url }}" 
-     alt="SCBM Research Framework" 
-     style="display:block; margin:0 auto; width:1200px;">
-<br>
-
 Our research focuses on five interconnected areas:
 
-### **1. 🌳 Nature-Inspired Building Materials**
+---
 
-We develop bio-based and waste-derived construction materials that replace conventional cement-based systems while maintaining structural performance. By leveraging renewable biopolymers such as lignin, we create cement-free composites with applications ranging from sustainable building components to structural infrastructure.
+<!-- THEME 1 -->
+<div class="theme-block" style="border-left-color: #2E7D32;">
+  <div class="theme-title" style="color: #2E7D32;">🌳 1. Nature-Inspired Building Materials</div>
+  <p class="theme-desc">
+    We develop bio-based and waste-derived construction materials that replace conventional cement-based systems while maintaining structural performance. By leveraging renewable biopolymers such as lignin, we create cement-free composites with applications ranging from sustainable building components to structural infrastructure.
+  </p>
+  
+  <div class="project-grid">
+    <div class="project-card">
+      <div class="project-title">Project Title A</div>
+      <p class="project-body">Brief description of a specific project under this theme. Highlight the core methodology, materials used, or key performance outcomes.</p>
+    </div>
+    <div class="project-card">
+      <div class="project-title">Project Title B</div>
+      <p class="project-body">Brief description of another specific project under this theme.</p>
+    </div>
+  </div>
+</div>
 
-### **2. 🧮 Sustainable Manufacturing and Life-Cycle Design**
+<!-- THEME 2 -->
+<div class="theme-block" style="border-left-color: #D97706;">
+  <div class="theme-title" style="color: #D97706;">🧮 2. Sustainable Manufacturing and Life-Cycle Design</div>
+  <p class="theme-desc">
+    We apply life-cycle assessment (LCA) and data-driven optimization to identify low-carbon manufacturing pathways, reduce environmental impacts, and guide the development of sustainable construction technologies.
+  </p>
+  
+  <div class="project-grid">
+    <div class="project-card">
+      <div class="project-title">Project Title A</div>
+      <p class="project-body">Brief description of a specific project under this theme. Highlight the core methodology, materials used, or key performance outcomes.</p>
+    </div>
+    <div class="project-card">
+      <div class="project-title">Project Title B</div>
+      <p class="project-body">Brief description of another specific project under this theme.</p>
+    </div>
+  </div>
+</div>
 
-We apply life-cycle assessment (LCA) and data-driven optimization to identify low-carbon manufacturing pathways, reduce environmental impacts, and guide the development of sustainable construction technologies.
+<!-- THEME 3 -->
+<div class="theme-block" style="border-left-color: #003B5C;">
+  <div class="theme-title" style="color: #003B5C;">♻️ 3. Circular Construction Systems</div>
+  <p class="theme-desc">
+    We investigate recycling, reuse, and material recovery strategies to establish closed-loop construction systems where materials can be continuously repurposed rather than discarded.
+  </p>
+  
+  <div class="project-grid">
+    <div class="project-card">
+      <div class="project-title">Project Title A</div>
+      <p class="project-body">Brief description of a specific project under this theme. Highlight the core methodology, materials used, or key performance outcomes.</p>
+    </div>
+    <div class="project-card">
+      <div class="project-title">Project Title B</div>
+      <p class="project-body">Brief description of another specific project under this theme.</p>
+    </div>
+  </div>
+</div>
 
-### **3. ♻️ Circular Construction Systems**
+<!-- THEME 4 -->
+<div class="theme-block" style="border-left-color: #2E7D32;">
+  <div class="theme-title" style="color: #2E7D32;">🤖 4. AI-Enabled Sensing and Smart Manufacturing</div>
+  <p class="theme-desc">
+    We integrate sensors, machine learning, and artificial intelligence to create intelligent materials capable of monitoring their manufacturing processes, detecting defects, and predicting mechanical performance throughout their service life.
+  </p>
+  
+  <div class="project-grid">
+    <div class="project-card">
+      <div class="project-title">Project Title A</div>
+      <p class="project-body">Brief description of a specific project under this theme. Highlight the core methodology, materials used, or key performance outcomes.</p>
+    </div>
+    <div class="project-card">
+      <div class="project-title">Project Title B</div>
+      <p class="project-body">Brief description of another specific project under this theme.</p>
+    </div>
+  </div>
+</div>
 
-We investigate recycling, reuse, and material recovery strategies to establish closed-loop construction systems where materials can be continuously repurposed rather than discarded.
+<!-- THEME 5 -->
+<div class="theme-block" style="border-left-color: #003B5C;">
+  <div class="theme-title" style="color: #003B5C;">🔬 5. Multiscale Characterization and Predictive Modeling</div>
+  <p class="theme-desc">
+    We combine advanced characterization techniques, including microscopy and micro-computed tomography, with computational modeling to uncover structure–property relationships and enable predictive design of next-generation materials.
+  </p>
+  
+  <div class="project-grid">
+    <div class="project-card">
+      <div class="project-title">Project Title A</div>
+      <p class="project-body">Brief description of a specific project under this theme. Highlight the core methodology, materials used, or key performance outcomes.</p>
+    </div>
+    <div class="project-card">
+      <div class="project-title">Project Title B</div>
+      <p class="project-body">Brief description of another specific project under this theme.</p>
+    </div>
+  </div>
+</div>
 
-### **4. 🤖 AI-Enabled Sensing and Smart Manufacturing**
-
-We integrate sensors, machine learning, and artificial intelligence to create intelligent materials capable of monitoring their manufacturing processes, detecting defects, and predicting mechanical performance throughout their service life.
-
-### **5. 🔬 Multiscale Characterization and Predictive Modeling**
-
-We combine advanced characterization techniques, including microscopy and micro-computed tomography, with computational modeling to uncover structure–property relationships and enable predictive design of next-generation materials.
+---
 
 A major research direction of the **<span style="color:#2E7D32; font-weight:700;">S</span><span style="color:#D97706; font-weight:700;">b</span><span style="color:#003B5C; font-weight:700;">M</span>-Lab** is the development of Engineered Biopolymer Composite (EBC), a recyclable and low-carbon construction material that uses bio-derived polymers to bind granular materials. Through optimized processing, circular design, and intelligent monitoring, EBC demonstrates the potential to achieve mechanical performance comparable to conventional concrete while significantly reducing environmental impacts.
 
 By bridging materials science, civil engineering, sustainability, and artificial intelligence, the **<span style="color:#2E7D32; font-weight:700;">S</span><span style="color:#D97706; font-weight:700;">b</span><span style="color:#003B5C; font-weight:700;">M</span>-Lab** aims to create a future where construction materials are not only stronger and more sustainable, but also smart, circular, and adaptive components of tomorrow's infrastructure.
 
-{% include base_path %}
-
-
 {% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
-
