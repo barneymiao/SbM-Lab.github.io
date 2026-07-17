@@ -108,7 +108,7 @@ Our research focuses on five interconnected areas:
   
   <div class="project-list">
     
-    <!-- PROJECT 1 -->
+    <!-- PROJECT 1 (Original, Non-Clickable Title + Paper PDF Button) -->
     <div class="project-card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
       <!-- Project Image (Left) -->
       <div style="flex: 1 1 200px; max-width: 250px; min-width: 180px;">
@@ -117,23 +117,25 @@ Our research focuses on five interconnected areas:
       
       <!-- Project Text (Right) -->
       <div style="flex: 2 1 350px;">
-        <!-- Clickable Title Header -->
-        <div class="project-title" style="margin-top: 0; margin-bottom: 8px;">
-          <a href="{{ '/portfolio/portfolio-1/' | relative_url }}" class="project-title-link" style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-            <span class="project-title-text" style="font-weight: 700; color: #334155; font-size: 1.1em;">Tailored Lignin-Based Biopolymer-Bound Soil Composites (BSCs)</span>
-            <span class="read-more-btn" style="font-size: 0.85em; color: #2E7D32; font-weight: normal; margin-left: 10px; white-space: nowrap;">Read more →</span>
-          </a>
+        <!-- Regular Static Title Header -->
+        <div class="project-title" style="margin-top: 0; margin-bottom: 8px; font-weight: 700; color: #334155; font-size: 1.1em;">
+          Tailored Lignin-Based Biopolymer-Bound Soil Composites (BSCs)
         </div>
         <p class="project-body" style="margin-bottom: 10px;">
           To mitigate the environmental impact of concrete production—which generates 8% of global carbon emissions—this project introduces a sustainable, cement-free construction material: lignin-based Biopolymer-Bound Soil Composite (BSC). Utilizing low-cost, industrial byproducts (hydrolysis and alkali lignin), we formulated ten distinct mix designs to establish predictive relationships between composition, density, and strength.
         </p>
-        <p class="project-body">
+        <p class="project-body" style="margin-bottom: 0;">
           The resulting composites achieved compressive strengths ranging from 1.6 to 8.1 MPa. These parameters demonstrate the material's viability for immediate deployment in non-structural, low-carbon building applications, establishing a clear design methodology for scalable, green alternatives to traditional soil stabilizers.
         </p>
+
+        <!-- Link to Paper PDF -->
+        <a href="{{ '/files/lignin-bsc-paper.pdf' | relative_url }}" class="paper-pdf-btn" target="_blank">
+          📄 View Paper PDF
+        </a>
       </div>
     </div>
 
-    <!-- PROJECT 2 -->
+    <!-- PROJECT 2 (Clickable Title Linking to portfolio-1) -->
     <div class="project-card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
       <!-- Project Image Placeholder (Left) -->
       <div style="flex: 1 1 200px; max-width: 250px; min-width: 180px; background-color: #f1f5f9; border-radius: 4px; display: flex; align-items: center; justify-content: center; min-height: 150px; border: 1px dashed #cbd5e1;">
@@ -144,7 +146,7 @@ Our research focuses on five interconnected areas:
       <div style="flex: 2 1 350px;">
         <!-- Clickable Title Header -->
         <div class="project-title" style="margin-top: 0; margin-bottom: 8px;">
-          <a href="{{ '/portfolio/portfolio-2/' | relative_url }}" class="project-title-link" style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+          <a href="{{ '/portfolio/portfolio-1/' | relative_url }}" class="project-title-link" style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
             <span class="project-title-text" style="font-weight: 700; color: #334155; font-size: 1.1em;">Project Title B</span>
             <span class="read-more-btn" style="font-size: 0.85em; color: #2E7D32; font-weight: normal; margin-left: 10px; white-space: nowrap;">Read more →</span>
           </a>
@@ -153,7 +155,7 @@ Our research focuses on five interconnected areas:
           Brief description of your second project under this theme. Highlight the core design methodology, key raw materials, and circular lifecycle aspects.
         </p>
         <p class="project-body">
-          You can replace this placeholder content, and update the left box with an actual project image once you have one ready for portfolio-2.
+          You can replace this placeholder content, and update the left box with an actual project image once you have one ready for portfolio-1.
         </p>
       </div>
     </div>
