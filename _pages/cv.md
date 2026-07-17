@@ -172,7 +172,7 @@ Work Experience
 
   <li class="experience-timeline-item">
     <div class="exp-date">Aug 2026 – Present</div>
-    <div class="exp-title">Tenure-Track Assistant Professor</div>
+    <div class="exp-title">Assistant Professor</div>
     <div class="exp-inst">University of Calgary</div>
     <div class="exp-dept">Department of Civil Engineering</div>
   </li>
