@@ -259,41 +259,69 @@ author_profile: true
   </div>
 </div>
 
-<!-- PROJECT 2 (Clickable Title Linking to portfolio-1 + EBC Abstract Info + GitHub Link) -->
-    <div class="project-card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
-      <!-- Project Image (Left - Reusing Lignin Image for now) -->
-      <div style="flex: 1 1 200px; max-width: 250px; min-width: 180px;">
-        <img src="{{ '/images/Lignin_Paper.png' | relative_url }}" alt="Engineered Biopolymer Composite sample" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
+<!-- PROJECT 2 (Static Title Header + EBC Abstract Info + 2 Stacked Photos/Video + Publications) -->
+<div class="project-card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+  
+  <!-- Project Images Stacking Vertically (Left Column) -->
+  <div style="flex: 1 1 200px; max-width: 250px; min-width: 180px; display: flex; flex-direction: column; gap: 15px;">
+    <!-- First Image Group -->
+    <div style="width: 100%;">
+      <img src="{{ '/images/EBC_Bricks.png' | relative_url }}" alt="Engineered Biopolymer Composite bricks and blocks" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
+      <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">EBC structural sample testing</div>
+    </div>
+    
+    <!-- Second Image/Video Group -->
+    <div style="width: 100%;">
+      <video autoplay loop muted playsinline style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px; display: block;">
+        <source src="{{ '/images/DIC_Experiment.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Digital Image Correlation (DIC) experimental testing</div>
+    </div>
+  </div>
+  
+  <!-- Project Text (Right Column) -->
+  <div style="flex: 2 1 350px;">
+    <!-- Regular Static Title Header -->
+    <div class="project-title" style="margin-top: 0; margin-bottom: 8px; font-weight: 700; color: #334155; font-size: 1.1em;">
+      Engineered Biopolymer Composite: An Affordable, Carbon-Negative Alternative to Concrete
+    </div>
+    <p class="project-body" style="margin-bottom: 10px;">
+      Addressing the construction sector's heavy carbon footprint, this project introduces an Engineered Biopolymer Composite (EBC) as a carbon-negative, recyclable, and mechanically robust alternative to traditional building materials. By combining carbon-rich industrial lignin waste with methyl cellulose, EBC mimics the natural cohesion of plant cell walls.
+    </p>
+    <p class="project-body" style="margin-bottom: 10px;">
+      The resulting composite achieves compressive strengths up to 35.4 MPa, tensile strengths of 3.33 MPa, and a Young's modulus of 2.88 GPa—comparable to conventional concrete while maintaining high structural circularity upon recycling. 
+    </p>
+    <p class="project-body" style="margin-bottom: 12px;">
+      Cradle-to-gate life cycle assessments indicate a global average carbon sequestration benefit of -231.2 kg CO₂/m³. Scaling this technology using global lignin supplies presents a highly viable, nature-inspired pathway to decarbonize global infrastructure.
+    </p>
+
+    <!-- Relevant Publications -->
+    <div class="project-citations" style="margin-bottom: 15px; font-size: 0.9em; border-top: 1px dashed #e2e8f0; padding-top: 10px;">
+      <div style="font-weight: 700; color: #1e293b; margin-bottom: 8px; text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.05em;">Relevant Publications:</div>
+      
+      <!-- Citation 1 -->
+      <div style="margin-bottom: 12px;">
+        <p style="margin: 0; color: #475569; line-height: 1.4;">
+          <strong>J3.</strong> B. H. Miao, A. C. Lesh, P. Hart, S. Song, D. J. Loftus, M. D. Lepech. "Engineered Biopolymer Composite, an affordable carbon-negative alternative to concrete." <em>Nature-Inspired Materials</em>, 2026.
+        </p>
       </div>
       
-      <!-- Project Text (Right) -->
-      <div style="flex: 2 1 350px;">
-        <!-- Clickable Title Header -->
-        <div class="project-title" style="margin-top: 0; margin-bottom: 8px;">
-          <a href="{{ '/portfolio/portfolio-1/' | relative_url }}" class="project-title-link" style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-            <span class="project-title-text" style="font-weight: 700; color: #334155; font-size: 1.1em;">Engineered Biopolymer Composite: An Affordable, Carbon-Negative Alternative to Concrete</span>
-            <span class="read-more-btn" style="font-size: 0.85em; color: #2E7D32; font-weight: normal; margin-left: 10px; white-space: nowrap;">Read more →</span>
-          </a>
-        </div>
-        <p class="project-body" style="margin-bottom: 10px;">
-          Addressing the construction sector's heavy carbon footprint, this project introduces an Engineered Biopolymer Composite (EBC) as a carbon-negative, recyclable, and mechanically robust alternative to traditional building materials. By combining carbon-rich industrial lignin waste with methyl cellulose, EBC mimics the natural cohesion of plant cell walls.
+      <!-- Citation 2 (Under Review with GitHub link) -->
+      <div>
+        <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
+          <strong>J5.</strong> B. H. Miao, A. C. Lesh, M. D. Lepech. "Microstructural and multiscale characterization of plant-cell-wall-inspired cohesion in polymer matrices." <em>Advanced Functional Materials</em>, 2026. <span style="color: #4b5563; font-weight: 600; font-style: italic;">Under Review.</span>
         </p>
-        <p class="project-body" style="margin-bottom: 10px;">
-          The resulting composite achieves compressive strengths up to 35.4 MPa, tensile strengths of 3.33 MPa, and a Young's modulus of 2.88 GPa—comparable to conventional concrete while maintaining high structural circularity upon recycling. 
-        </p>
-        <p class="project-body" style="margin-bottom: 0;">
-          Cradle-to-gate life cycle assessments indicate a global average carbon sequestration benefit of -231.2 kg CO₂/m³. Scaling this technology using global lignin supplies presents a highly viable, nature-inspired pathway to decarbonize global infrastructure.
-        </p>
-
-        <!-- Document Links -->
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-          <!-- Link to GitHub Repo -->
-          <a href="https://github.com/your-github-username/your-repo-name" class="paper-github-btn" target="_blank">
+          <a href="https://github.com/your-github-username/your-repo-name" class="paper-github-btn" target="_blank" style="margin-top: 0;">
             💻 View GitHub Repository
           </a>
         </div>
       </div>
     </div>
+
+  </div>
+</div>
 
 <!-- THEME 2 -->
 <div class="theme-block" style="border-left-color: #D97706;">
