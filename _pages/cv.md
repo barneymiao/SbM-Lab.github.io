@@ -441,10 +441,11 @@ Service & Leadership
 <div class="service-category">
   <div class="service-title">Journal Peer Review</div>
   <ul class="service-list">
-    <li class="service-item"><em>Cleaner Materials</em> <span class="if-badge">[IF: 9.0]</span></li>
+    <li class="service-item"><em>Cleaner Materials</em> <span class="if-badge">[IF: 12.7.0]</span></li>
+    <li class="service-item"><em>Cleaner Environmental Systems</em> <span class="if-badge">[IF: 5.3]</span></li>
     <li class="service-item"><em>Construction Innovation, Process, Management</em> <span class="if-badge">[IF: 3.9]</span></li>
-    <li class="service-item"><em>Clean Technologies and Environmental Policy</em> <span class="if-badge">[IF: 4.5]</span></li>
-    <li class="service-item"><em>Scientific Reports</em> <span class="if-badge">[IF: 3.9]</span></li>
-    <li class="service-item"><em>Discovery Sustainability</em> <span class="if-badge">[IF: 3.6]</span></li>
+    <li class="service-item"><em>Clean Technologies and Environmental Policy</em> <span class="if-badge">[IF: 5.1]</span></li>
+    <li class="service-item"><em>Scientific Reports</em> <span class="if-badge">[IF: 4.9]</span></li>
+    <li class="service-item"><em>Discovery Sustainability</em> <span class="if-badge">[IF: 5.2]</span></li>
   </ul>
 </div>
