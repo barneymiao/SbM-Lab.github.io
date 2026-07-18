@@ -1,494 +1,1050 @@
 ---
+
 layout: archive
+
 title: "Research at the <span style='color:#2E7D32; font-weight:700;'>S</span><span style='color:#D97706; font-weight:700;'>b</span><span style='color:#003B5C; font-weight:700;'>M</span>-Lab"
+
 permalink: /research/
+
 author_profile: true
+
 ---
+
+
 
 {% include base_path %}
 
+
+
 <style>
+
   /* Theme Blocks Container */
+
   .theme-block {
+
     background-color: #f8f9fa;
+
     border-left: 5px solid #003B5C; /* Calgary Blue accent */
+
     border-radius: 4px;
+
     padding: 25px;
+
     margin-bottom: 35px;
+
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+
   }
+
+
 
   .theme-title {
+
     color: #003B5C;
+
     margin-top: 0 !important;
+
     font-size: 1.4em;
+
     font-weight: 700;
+
     border-bottom: 1px solid #e2e8f0;
+
     padding-bottom: 8px;
+
     margin-bottom: 15px;
+
   }
+
+
 
   .theme-desc {
+
     font-size: 1.05em;
+
     color: #4a5568;
+
     line-height: 1.5;
+
     margin-bottom: 20px;
+
   }
+
+
 
   /* Projects List (Single Row Layout) */
+
   .project-list {
+
     display: flex;
+
     flex-direction: column;
+
     gap: 15px;
+
     margin-top: 15px;
+
   }
+
+
 
   .project-card {
+
     background-color: #ffffff;
+
     border: 1px solid #e2e8f0;
+
     border-radius: 6px;
+
     padding: 18px;
+
     box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+
     transition: transform 0.2s, box-shadow 0.2s;
+
   }
+
+
 
   .project-card:hover {
+
     transform: translateY(-2px);
+
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+
     border-color: #cbd5e1;
+
   }
+
+
 
   .project-title {
+
     font-weight: 700;
+
     color: #334155;
+
     margin-top: 0;
+
     margin-bottom: 8px;
+
     font-size: 1.1em;
+
   }
+
+
 
   .project-body {
+
     font-size: 0.95em;
+
     color: #64748b;
+
     margin: 0;
+
     line-height: 1.4;
+
   }
 
-  /* Inline Image Wrap Box Style */
-  .inline-media-container {
-    width: 100%;
-    margin: 15px 0;
+
+
+  /* Ensure the title link inherits clean text styles */
+
+  .project-title-link {
+
+    text-decoration: none !important;
+
+    color: inherit !important;
+
   }
 
-  .inline-media-caption {
-    font-size: 0.75em;
-    color: #64748b;
-    text-align: center;
-    font-style: italic;
-    line-height: 1.2;
-    margin-top: 4px;
+
+
+  /* Accentuate the title and arrow on hover over the link */
+
+  .project-title-link:hover .project-title-text {
+
+    color: #2E7D32; /* Theme 1 green */
+
+    text-decoration: underline;
+
   }
+
+
+
+  .project-title-link:hover .read-more-btn {
+
+    text-decoration: underline;
+
+  }
+
+
+
+  /* Style for Collaboration Cards */
+
+  .collab-block {
+
+    background-color: #fdfdfd;
+
+    border-left: 5px solid #64748b; /* Slate gray accent for collaborative work */
+
+    border-radius: 4px;
+
+    padding: 25px;
+
+    margin-top: 40px;
+
+    margin-bottom: 35px;
+
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+
+    border: 1px solid #e2e8f0;
+
+    border-left-width: 5px;
+
+  }
+
+
 
   /* Style for DOI / Publisher Link button (Light Green) */
+
   .paper-doi-btn {
+
     display: inline-flex;
+
     align-items: center;
+
     gap: 6px;
+
     background-color: #f0fdf4; /* Light green tint */
+
     color: #166534; /* Deep green text */
+
     border: 1px solid #bbf7d0;
+
     border-radius: 4px;
+
     padding: 6px 12px;
+
     font-size: 0.85em;
+
     font-weight: 600;
+
     text-decoration: none !important;
+
     margin-top: 12px;
+
     transition: all 0.15s ease;
+
   }
+
+
 
   .paper-doi-btn:hover {
+
     background-color: #dcfce7;
+
     color: #14532d;
+
     border-color: #86efac;
+
   }
 
-  /* Style for the Paper PDF button (Light Blue) */
+
+
+  /* New Style for the Paper PDF button (Light Blue) */
+
   .paper-pdf-btn {
+
     display: inline-flex;
+
     align-items: center;
+
     gap: 6px;
+
     background-color: #f0f9ff; /* Light blue tint */
+
     color: #0369a1; /* Deep blue text */
+
     border: 1px solid #bae6fd;
+
     border-radius: 4px;
+
     padding: 6px 12px;
+
     font-size: 0.85em;
+
     font-weight: 600;
+
     text-decoration: none !important;
+
     margin-top: 12px;
+
     transition: all 0.15s ease;
+
   }
+
+
 
   .paper-pdf-btn:hover {
+
     background-color: #e0f2fe;
+
     color: #0c4a6e;
+
     border-color: #7dd3fc;
+
   }
+
+
 
   /* Style for GitHub Repository button (Light Slate/Purple) */
+
   .paper-github-btn {
+
     display: inline-flex;
+
     align-items: center;
+
     gap: 6px;
+
     background-color: #f5f3ff; /* Light purple tint */
+
     color: #6d28d9; /* Deep purple text */
+
     border: 1px solid #ddd6fe;
+
     border-radius: 4px;
+
     padding: 6px 12px;
+
     font-size: 0.85em;
+
     font-weight: 600;
+
     text-decoration: none !important;
+
     margin-top: 12px;
+
     transition: all 0.15s ease;
+
   }
 
+
+
   .paper-github-btn:hover {
+
     background-color: #ede9fe;
+
     color: #5b21b6;
+
     border-color: #c4b5fd;
+
   }
+
+
+
+  @media (max-width: 576px) {
+
+    .project-image-gallery {
+
+      flex-direction: column !important;
+
+    }
+
+    .project-image-gallery div {
+
+      max-width: 100% !important;
+
+    }
+
+  }
+
 </style>
+
+
 
 ---
 
+
+
 <!-- THEME 1 -->
+
 <div class="theme-block" style="border-left-color: #2E7D32;">
+
   <div class="theme-title" style="color: #2E7D32;">🌳 1. Nature-Inspired Building Materials</div>
+
   <p class="theme-desc">
+
     We develop bio-based and waste-derived construction materials that replace conventional cement-based systems while maintaining structural performance. By leveraging renewable biopolymers such as lignin, we create cement-free composites with applications ranging from sustainable building components to structural infrastructure.
+
   </p>
+
   
+
   <div class="project-list">
+
     
-<!-- THEME 1 -->
-<div class="theme-block">
-  <div class="theme-title">🧪 1. Nature-Inspired and Carbon-Negative Materials</div>
-  <p class="theme-desc">
-    We engineer a new class of structural and non-structural building materials by utilizing abundant, carbon-rich biopolymers to bind soil and industrial byproducts, eliminating the need for cement.
-  </p>
-  
-  <div class="project-list">
-    
+
     <!-- PROJECT 1 -->
-    <div class="project-card">
-      <div class="project-title">
-        Development of Lignin-Based Biopolymer-Bound Composites
-      </div>
+
+    <div class="project-card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+
       
-      <p class="project-body" style="margin-bottom: 10px;">
-        To mitigate the environmental impact of concrete production—which generates 8% of global carbon emissions—this project introduces a sustainable, cement-free construction material: lignin-based Biopolymer-Bound Composites. Utilizing low-cost, industrial byproducts (hydrolysis and alkali lignin), we formulated ten distinct mix designs to establish predictive relationships between composition, density, and strength.
-      </p>
 
-      <!-- First Inline Image (Theme 1, Project 1) -->
-      <div class="inline-media-container">
-        <img src="{{ '/images/EBC_Specimen.png' | relative_url }}" alt="Lignin-based biopolymer-bound soil composite" style="width: 100%; height: auto; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
-        <div class="inline-media-caption">Biopolymer-bound composite specimen</div>
+      <!-- Project Images Stacking Vertically (Left Column) -->
+
+      <div style="flex: 1 1 200px; max-width: 250px; min-width: 180px; display: flex; flex-direction: column; gap: 15px;">
+
+        <!-- First Image Group -->
+
+        <div style="width: 100%;">
+
+          <img src="{{ '/images/EBC_Specimen.png' | relative_url }}" alt="Lignin-based biopolymer-bound soil composite" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
+
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Biopolymer-bound composite specimen</div>
+
+        </div>
+
+        
+
+        <!-- Second Image Group -->
+
+        <div style="width: 100%;">
+
+          <img src="{{ '/images/Lignin_Paper.png' | relative_url }}" alt="Lignin composite performance metrics" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
+
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Design relationships for biopolymer-bound soil composite made using lignin (Hydrolysis).</div>
+
+        </div>
+
       </div>
 
-      <p class="project-body" style="margin-bottom: 12px;">
-        The resulting composites achieved compressive strengths ranging from 1.6 to 8.1 MPa. These parameters demonstrate the material's viability for immediate deployment in non-structural, low-carbon building applications, establishing a clear design methodology for scalable, green alternatives to traditional soil stabilizers.
-      </p>
+      
 
-      <!-- Second Inline Image (Theme 1, Project 1) -->
-      <div class="inline-media-container">
-        <img src="{{ '/images/Lignin_Paper.png' | relative_url }}" alt="Lignin composite performance metrics" style="width: 100%; height: auto; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
-        <div class="inline-media-caption">Design relationships for biopolymer-bound soil composite made using lignin (Hydrolysis).</div>
-      </div>
+      <!-- Project Text (Right Column) -->
 
-      <!-- Relevant Publications -->
-      <div class="project-citations" style="margin-bottom: 15px; font-size: 0.9em; border-top: 1px dashed #e2e8f0; padding-top: 10px;">
-        <div style="font-weight: 700; color: #1e293b; margin-bottom: 8px; text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.05em;">Relevant Publications:</div>
-        
-        <!-- Citation 1 -->
-        <div style="margin-bottom: 12px;">
-          <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
-            B. H. Miao, R. J. Headrick, Z. Li, L. Spanu, D. J. Loftus, M. D. Lepech. "Development of biopolymer composites using lignin: A sustainable technology for fostering a green transition in the construction sector." <em>Cleaner Materials</em>, 14, 100279, 2024. 
-          </p>
-          <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-            <a href="https://doi.org/10.1016/j.clema.2024.100279" class="paper-doi-btn" target="_blank" style="margin-top: 0;">🔗 View Publisher DOI</a>
-            <a href="{{ '/files/lignin-bsc-paper.pdf' | relative_url }}" class="paper-pdf-btn" target="_blank" style="margin-top: 0;">📄 View Paper PDF</a>
-          </div>
+      <div style="flex: 2 1 350px;">
+
+        <div class="project-title" style="margin-top: 0; margin-bottom: 8px; font-weight: 700; color: #334155; font-size: 1.1em;">
+
+          Development of Lignin-Based Biopolymer-Bound Composites
+
         </div>
-        
-        <!-- Citation 2 -->
-        <div style="margin-bottom: 12px;">
-          <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
-            B. H. Miao, D. Woo, A. C. Lesh, D. J. Loftus, M. D. Lepech. "Solvent selection enables sustainable and affordable lignin biocomposite for cement-free construction." <em>Cleaner Materials</em>, 100371, 2026. 
-          </p>
-          <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-            <a href="https://doi.org/10.1016/j.clema.2026.100371" class="paper-doi-btn" target="_blank" style="margin-top: 0;">🔗 View Publisher DOI</a>
-            <a href="{{ '/files/Miao et al. - 2026 - Solvent selection enables sustainable and affordable lignin biocomcomposite for cement-free construction.pdf' | relative_url }}" class="paper-pdf-btn" target="_blank" style="margin-top: 0;">📄 View Paper PDF</a>
+
+        <p class="project-body" style="margin-bottom: 10px;">
+
+          To mitigate the environmental impact of concrete production—which generates 8% of global carbon emissions—this project introduces a sustainable, cement-free construction material: lignin-based Biopolymer-Bound Composites. Utilizing low-cost, industrial byproducts (hydrolysis and alkali lignin), we formulated ten distinct mix designs to establish predictive relationships between composition, density, and strength.
+
+        </p>
+
+        <p class="project-body" style="margin-bottom: 12px;">
+
+          The resulting composites achieved compressive strengths ranging from 1.6 to 8.1 MPa. These parameters demonstrate the material's viability for immediate deployment in non-structural, low-carbon building applications, establishing a clear design methodology for scalable, green alternatives to traditional soil stabilizers.
+
+        </p>
+
+
+
+        <!-- Relevant Publications -->
+
+        <div class="project-citations" style="margin-bottom: 15px; font-size: 0.9em; border-top: 1px dashed #e2e8f0; padding-top: 10px;">
+
+          <div style="font-weight: 700; color: #1e293b; margin-bottom: 8px; text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.05em;">Relevant Publications:</div>
+
+          
+
+          <!-- Citation 1 -->
+
+          <div style="margin-bottom: 12px;">
+
+            <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
+
+             B. H. Miao, R. J. Headrick, Z. Li, L. Spanu, D. J. Loftus, M. D. Lepech. "Development of biopolymer composites using lignin: A sustainable technology for fostering a green transition in the construction sector." <em>Cleaner Materials</em>, 14, 100279, 2024. 
+
+            </p>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+              <a href="https://doi.org/10.1016/j.clema.2024.100279" class="paper-doi-btn" target="_blank" style="margin-top: 0;">🔗 View Publisher DOI</a>
+
+              <a href="{{ '/files/lignin-bsc-paper.pdf' | relative_url }}" class="paper-pdf-btn" target="_blank" style="margin-top: 0;">📄 View Paper PDF</a>
+
+            </div>
+
           </div>
-        </div>
-        
-        <!-- Citation 3 -->
-        <div>
-          <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
+
+          
+
+          <!-- Citation 2 -->
+
+          <div style="margin-bottom: 12px;">
+
+            <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
+
+             B. H. Miao, D. Woo, A. C. Lesh, D. J. Loftus, M. D. Lepech. "Solvent selection enables sustainable and affordable lignin biocomcomposite for cement-free construction." <em>Cleaner Materials</em>, 100371, 2026. 
+
+            </p>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+              <a href="https://doi.org/10.1016/j.clema.2026.100371" class="paper-doi-btn" target="_blank" style="margin-top: 0;">🔗 View Publisher DOI</a>
+
+              <a href="{{ '/files/Miao et al. - 2026 - Solvent selection enables sustainable and affordable lignin biocomposite for cement-free construction.pdf' | relative_url }}" class="paper-pdf-btn" target="_blank" style="margin-top: 0;">📄 View Paper PDF</a>
+
+            </div>
+
+          </div>
+
+          
+
+          <!-- Citation 3 -->
+
+          <div>
+
+            <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
+
             B. H. Miao, A. C. Lesh, D. J. Loftus, M. D. Lepech. "Solvent Optimization for a Cement-Free Building Material Using Lignin." <em>Earth and Space 2026</em>, ASCE, 2026.
-          </p>
+
+            </p>
+
+          </div>
+
         </div>
+
       </div>
+
     </div>
+
+
 
     <!-- PROJECT 2 -->
-    <div class="project-card">
-      <div class="project-title">
-        Engineered Biopolymer Composite: An Affordable, Carbon-Negative Alternative to Concrete
-      </div>
+
+    <div class="project-card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+
       
-      <p class="project-body" style="margin-bottom: 10px;">
-        Addressing the construction sector's heavy carbon footprint, this project introduces an Engineered Biopolymer Composite (EBC) as a carbon-negative, recyclable, and mechanically robust alternative to traditional building materials. By combining carbon-rich industrial lignin waste with methyl cellulose, EBC mimics the natural cohesion of plant cell walls.
-      </p>
 
-      <!-- Media Group 1 -->
-      <div class="inline-media-container">
-        <img src="{{ '/images/EBC_Bricks.png' | relative_url }}" alt="Engineered Biopolymer Composite bricks and blocks" style="width: 100%; height: auto; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
-        <div class="inline-media-caption">Engineered Biopolymer Composite bricks and blocks</div>
-      </div>
+      <!-- Project Media Container (Left Column) -->
 
-      <p class="project-body" style="margin-bottom: 10px;">
-        The resulting composite achieves compressive strengths up to 35.4 MPa, tensile strengths of 3.33 MPa, and a Young's modulus of 2.88 GPa—comparable to conventional concrete while maintaining high structural circularity upon recycling. 
-      </p>
+      <div style="flex: 1 1 200px; max-width: 250px; min-width: 180px; display: flex; flex-direction: column; gap: 15px;">
 
-      <!-- Media Group 2 -->
-      <div class="inline-media-container">
-        <img src="{{ '/images/EBC_Design_Guide.png' | relative_url }}" alt="EBC formulation design guide" style="width: 100%; height: auto; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
-        <div class="inline-media-caption">Design guide predicting compressive strength of EBC</div>
-      </div>
+        <!-- First Image Group -->
 
-      <p class="project-body" style="margin-bottom: 12px;">
-        Cradle-to-gate life cycle assessments indicate a global average carbon sequestration benefit of -231.2 kg CO₂/m³. Scaling this technology using global lignin supplies presents a highly viable, nature-inspired pathway to decarbonize global infrastructure.
-      </p>
+        <div style="width: 100%;">
 
-      <!-- Video Group & SEM Image Group -->
-      <div class="inline-media-container">
-        <video autoplay loop muted playsinline style="width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); display: block;">
-          <source src="{{ '/images/DIC_Experiment.mp4' | relative_url }}" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <div class="inline-media-caption">Digital Image Correlation (DIC) testing</div>
-      </div>
+          <img src="{{ '/images/EBC_Bricks.png' | relative_url }}" alt="Engineered Biopolymer Composite bricks and blocks" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
 
-      <div class="inline-media-container">
-        <img src="{{ '/images/SEM_EBC.jpg' | relative_url }}" alt="Scanning electron microscopy of Engineered Biopolymer Composite" style="width: 100%; height: auto; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
-        <div class="inline-media-caption">Scanning electron microscopy of Engineered Biopolymer Composite</div>
-      </div>
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Engineered Biopolymer Composite bricks and blocks</div>
 
-      <!-- Relevant Publications -->
-      <div class="project-citations" style="margin-bottom: 15px; font-size: 0.9em; border-top: 1px dashed #e2e8f0; padding-top: 10px;">
-        <div style="font-weight: 700; color: #1e293b; margin-bottom: 8px; text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.05em;">Relevant Publications:</div>
-        
-        <!-- Citation 1 -->
-        <div style="margin-bottom: 12px;">
-          <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
-            B. H. Miao, A. C. Lesh, P. Hart, D. J. Loftus, M. D. Lepech. "Engineered biopolymer composite: an affordable, cement-free material for sustainable construction." <em>Biologically Inspired Materials, Processes, and Systems (BIMPS) 2026</em>, 2026.
-          </p>
-          <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-            <a href="https://doi.org/10.1117/12.3090155" class="paper-doi-btn" target="_blank" style="margin-top: 0;">🔗 View Publisher DOI</a>
-          </div>
         </div>
-        
-        <!-- Citation 2 -->
-        <div>
-          <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
-            B. H. Miao, A. C. Lesh, P. Hart, S. Song, D. J. Loftus, M. D. Lepech. "Engineered biopolymer composite: an affordable, cement-free material for sustainable construction." <em>Under review</em>.
-          </p>
-          <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-            <a href="https://github.com/your-github-username/your-repo-name" class="paper-github-btn" target="_blank" style="margin-top: 0;">💻 View GitHub Repository</a>
-          </div>
+
+
+
+        <!-- Third Image Group -->
+
+        <div style="width: 100%;">
+
+          <img src="{{ '/images/EBC_Design_Guide.png' | relative_url }}" alt="EBC formulation design guide" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
+
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Design guide predicting compressive strength of EBC</div>
+
         </div>
+
+        
+
+        <!-- Fourth Video Group -->
+
+        <div style="width: 100%;">
+
+          <video autoplay loop muted playsinline style="width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px; display: block;">
+
+            <source src="{{ '/images/DIC_Experiment.mp4' | relative_url }}" type="video/mp4">
+
+            Your browser does not support the video tag.
+
+          </video>
+
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Digital Image Correlation (DIC) testing</div>
+
+        </div>
+
+
+
+        <!-- Second Image Group -->
+
+        <div style="width: 100%;">
+
+          <img src="{{ '/images/SEM_EBC.jpg' | relative_url }}" alt="Scanning electron microscopy of Engineered Biopolymer Composite" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
+
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Scanning electron microscopy of Engineered Biopolymer Composite</div>
+
+        </div>
+
+        
+
       </div>
+
+      
+
+      <!-- Project Text (Right Column) -->
+
+      <div style="flex: 2 1 350px;">
+
+        <div class="project-title" style="margin-top: 0; margin-bottom: 8px; font-weight: 700; color: #334155; font-size: 1.1em;">
+
+          Engineered Biopolymer Composite: An Affordable, Carbon-Negative Alternative to Concrete
+
+        </div>
+
+        <p class="project-body" style="margin-bottom: 10px;">
+
+          Addressing the construction sector's heavy carbon footprint, this project introduces an Engineered Biopolymer Composite (EBC) as a carbon-negative, recyclable, and mechanically robust alternative to traditional building materials. By combining carbon-rich industrial lignin waste with methyl cellulose, EBC mimics the natural cohesion of plant cell walls.
+
+        </p>
+
+        <p class="project-body" style="margin-bottom: 10px;">
+
+          The resulting composite achieves compressive strengths up to 35.4 MPa, tensile strengths of 3.33 MPa, and a Young's modulus of 2.88 GPa—comparable to conventional concrete while maintaining high structural circularity upon recycling. 
+
+        </p>
+
+        <p class="project-body" style="margin-bottom: 12px;">
+
+          Cradle-to-gate life cycle assessments indicate a global average carbon sequestration benefit of -231.2 kg CO₂/m³. Scaling this technology using global lignin supplies presents a highly viable, nature-inspired pathway to decarbonize global infrastructure.
+
+        </p>
+
+
+
+        <!-- Relevant Publications -->
+
+        <div class="project-citations" style="margin-bottom: 15px; font-size: 0.9em; border-top: 1px dashed #e2e8f0; padding-top: 10px;">
+
+          <div style="font-weight: 700; color: #1e293b; margin-bottom: 8px; text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.05em;">Relevant Publications:</div>
+
+          
+
+          <!-- Citation 1 -->
+
+          <div style="margin-bottom: 12px;">
+
+            <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
+
+              B. H. Miao, A. C. Lesh, P. Hart, D. J. Loftus, M. D. Lepech. "Engineered biopolymer composite: an affordable, cement-free material for sustainable construction
+
+." <em>Biologically Inspired Materials, Processes, and Systems (BIMPS) 2026</em>, 2026.
+
+            </p>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+              <a href="https://doi.org/10.1117/12.3090155" class="paper-doi-btn" target="_blank" style="margin-top: 0;">🔗 View Publisher DOI</a>
+
+            </div>
+
+          </div>
+
+          
+
+          <!-- Citation 2 -->
+
+          <div>
+
+            <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
+
+              B. H. Miao, A. C. Lesh, P. Hart, S. Song, D. J. Loftus, M. D. Lepech. "Engineered biopolymer composite: an affordable, cement-free material for sustainable construction." <em>Under review</em>.
+
+            </p>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+              <a href="https://github.com/your-github-username/your-repo-name" class="paper-github-btn" target="_blank" style="margin-top: 0;">💻 View GitHub Repository</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
 
+
+
   </div>
-</div> <!-- /THEME 1 -->
+
+</div> <!-- /THEME 1 (This closes the green block correctly) -->
+
+
 
 <!-- THEME 2 -->
+
 <div class="theme-block" style="border-left-color: #D97706;">
+
   <div class="theme-title" style="color: #D97706;">🧮 2. Sustainable Manufacturing and Life-Cycle Design</div>
+
   <p class="theme-desc">
+
     We apply life-cycle assessment (LCA) and data-driven optimization to identify low-carbon manufacturing pathways, reduce environmental impacts, and guide the development of sustainable construction technologies.
+
   </p>
+
   
+
   <div class="project-list">
+
     
+
     <!-- PROJECT 1 -->
-    <div class="project-card">
-      <div class="project-title">
-        Life cycle assessment and design of LignoBlock: A lignin bound block on the path towards a green transition of the construction industry
-      </div>
+
+    <div class="project-card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+
       
-      <p class="project-body" style="margin-bottom: 10px;">
-        Lignin-based biopolymer-bound soil composites (BSCs) are a new class of sustainable construction materials that utilize a bio-based biopolymer — lignin — as a binder. Inspired by prior work, lignin-based BSCs were developed using lignoboost lignin, lignoforce lignin, alkali lignin, and hydrolysis lignin. Uni-axial compressive testing shows that the compressive strength for these BSCs range from 1.6–8.1 MPa, making them appropriate for low compressive strength construction applications. 
-      </p>
 
-      <!-- Inline Image (Theme 2, Project 1) -->
-      <div class="inline-media-container">
-        <img src="{{ '/images/LignoBlock_LCA.png' | relative_url }}" alt="LignoBlock Life Cycle Assessment diagram" style="width: 100%; height: auto; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
-        <div class="inline-media-caption">Design guide for predicting carbon footprint of lignin-based biocomposites.</div>
-      </div>
+      <!-- Project Image Column (Left Column) -->
 
-      <p class="project-body" style="margin-bottom: 10px;">
-        We performed a life cycle assessment (LCA) of lignin-based BSC using a CMU-sized block as the functional unit. The major advantage of BSC lies in the elimination of ordinary Portland cement, which is common to traditional concrete. Furthermore, the use of lignin results in carbon sequestration (lignin is ~60 wt% carbon), potentially making materials made from lignin-based BSC carbon negative. 
-      </p>
-      <p class="project-body" style="margin-bottom: 12px;">
-        Additionally, a design guide for estimating the life cycle carbon footprint of lignin-based BSC for a required compressive strength was developed. By utilizing the results from material tests and the LCA, designers are now able to use lignin effectively in construction applications for a target compressive strength with a full understanding of the life cycle carbon footprint implications.
-      </p>
+      <div style="flex: 1 1 200px; max-width: 250px; min-width: 180px; display: flex; flex-direction: column; gap: 15px;">
 
-      <!-- Relevant Publications -->
-      <div class="project-citations" style="margin-bottom: 5px; font-size: 0.9em; border-top: 1px dashed #e2e8f0; padding-top: 10px;">
-        <div style="font-weight: 700; color: #1e293b; margin-bottom: 8px; text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.05em;">Relevant Publications:</div>
-        <div>
-          <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
-            B. H. Miao, R. J. Headrick, D. J. Loftus, M. D. Lepech. "Life cycle assessment and design of LignoBlock: A lignin bound block on the path towards a green transition of the construction industry." <em>Journal of Cleaner Production</em>, 2024.
-          </p>
-          <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-            <a href="https://doi.org/10.1016/j.jclepro.2024.143610" class="paper-doi-btn" target="_blank" style="margin-top: 0;">
-              🔗 View Publisher DOI
-            </a>
-          </div>
+        <div style="width: 100%;">
+
+          <img src="{{ '/images/LignoBlock_LCA.png' | relative_url }}" alt="LignoBlock Life Cycle Assessment diagram" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
+
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Design guide for predicting carbon footprint of lignin-based biocomposites.</div>
+
         </div>
+
       </div>
+
+      
+
+      <!-- Project Text Column (Right Column) -->
+
+      <div style="flex: 2 1 350px;">
+
+        <div class="project-title" style="margin-top: 0; margin-bottom: 8px; font-weight: 700; color: #334155; font-size: 1.1em;">
+
+          Life cycle assessment and design of LignoBlock: A lignin bound block on the path towards a green transition of the construction industry
+
+        </div>
+
+        <p class="project-body" style="margin-bottom: 10px;">
+
+          Lignin-based biopolymer-bound soil composites (BSCs) are a new class of sustainable construction materials that utilize a bio-based biopolymer — lignin — as a binder. Inspired by prior work, lignin-based BSCs were developed using lignoboost lignin, lignoforce lignin, alkali lignin, and hydrolysis lignin. Uni-axial compressive testing shows that the compressive strength for these BSCs range from 1.6–8.1 MPa, making them appropriate for low compressive strength construction applications. 
+
+        </p>
+
+        <p class="project-body" style="margin-bottom: 10px;">
+
+          We performed a life cycle assessment (LCA) of lignin-based BSC using a CMU-sized block as the functional unit. The major advantage of BSC lies in the elimination of ordinary Portland cement, which is common to traditional concrete. Furthermore, the use of lignin results in carbon sequestration (lignin is ~60 wt% carbon), potentially making materials made from lignin-based BSC carbon negative. 
+
+        </p>
+
+        <p class="project-body" style="margin-bottom: 12px;">
+
+          Additionally, a design guide for estimating the life cycle carbon footprint of lignin-based BSC for a required compressive strength was developed. By utilizing the results from material tests and the LCA, designers are now able to use lignin effectively in construction applications for a target compressive strength with a full understanding of the life cycle carbon footprint implications.
+
+        </p>
+
+
+
+        <!-- Relevant Publications -->
+
+        <div class="project-citations" style="margin-bottom: 15px; font-size: 0.9em; border-top: 1px dashed #e2e8f0; padding-top: 10px;">
+
+          <div style="font-weight: 700; color: #1e293b; margin-bottom: 8px; text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.05em;">Relevant Publications:</div>
+
+          <div>
+
+            <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
+
+              B. H. Miao, R. J. Headrick, D. J. Loftus, M. D. Lepech. "Life cycle assessment and design of LignoBlock: A lignin bound block on the path towards a green transition of the construction industry." <em>Journal of Cleaner Production</em>, 2024.
+
+            </p>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+              <a href="https://doi.org/10.1016/j.jclepro.2024.143610" class="paper-doi-btn" target="_blank" style="margin-top: 0;">
+
+                🔗 View Publisher DOI
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
+
+
 
     <!-- PROJECT 2 -->
-    <div class="project-card">
-      <div class="project-title">
-        Solvent selection enables sustainable and affordable lignin biocomposite for cement-free construction
-      </div>
+
+    <div class="project-card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+
       
-      <p class="project-body" style="margin-bottom: 10px;">
-        Cement-free construction materials are essential to reduce global carbon emissions, yet scalable alternatives remain limited. We report the development of a lignin-based biopolymer-bound soil composite (BSC), a novel cement-free material with mechanical properties comparable to lightweight concrete. To advance its scalability and environmental performance, we used a systematic framework for solvent selection in lignin biocomcomposite fabrication. 
-      </p>
-      <p class="project-body" style="margin-bottom: 10px;">
-        Applying this approach, we identified an acetic acid–water solvent system that speeds up manufacturing and enhances material quality. BSCs fabricated with this system exhibit increased strength (5.4 MPa vs. 3.7 MPa), attributed to acetylation of lignin. In addition, the acetic acid–water system dramatically reduces drying time compared with the alternative solvent, dimethyl sulfoxide (2 days vs. 14 days), enabling more efficient production. 
-      </p>
 
-      <!-- Inline Image (Theme 2, Project 2) -->
-      <div class="inline-media-container">
-        <img src="{{ '/images/Solvent_Map.png' | relative_url }}" alt="Solvent selection optimization matrix" style="width: 100%; height: auto; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
-        <div class="inline-media-caption">Carbon footprint of lignin biocomposite globally.</div>
-      </div>
+      <!-- Project Image Column (Left Column) -->
 
-      <p class="project-body" style="margin-bottom: 12px;">
-        Life cycle assessment reveals additional CO₂ sequestration and a 70% reduction in material cost relative to lignin biocomposite made using DMSO as the solvent. These improvements stem from solvent-induced modifications in lignin chemistry that enhance composite performance. This work demonstrates how both material design and rational solvent selection can pave the way for adoption of lignin-based composites as scalable, affordable, and low-carbon alternatives for the built environment.
-      </p>
+      <div style="flex: 1 1 200px; max-width: 250px; min-width: 180px; display: flex; flex-direction: column; gap: 15px;">
 
-      <!-- Relevant Publications -->
-      <div class="project-citations" style="margin-bottom: 5px; font-size: 0.9em; border-top: 1px dashed #e2e8f0; padding-top: 10px;">
-        <div style="font-weight: 700; color: #1e293b; margin-bottom: 8px; text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.05em;">Relevant Publications:</div>
-        <div>
-          <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
-            B. H. Miao, D. Woo, A. C. Lesh, D. J. Loftus, M. D. Lepech. "Solvent selection enables sustainable and affordable lignin biocomposite for cement-free construction." <em>Cleaner Materials</em>, 2026.
-          </p>
-          <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-            <a href="https://doi.org/10.1016/j.clema.2026.100371" class="paper-doi-btn" target="_blank" style="margin-top: 0;">
-              🔗 View Publisher DOI
-            </a>
-          </div>
+        <div style="width: 100%;">
+
+          <img src="{{ '/images/Solvent_Map.png' | relative_url }}" alt="Solvent selection optimization matrix" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
+
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Carbon footprint of lignin biocomposite globally.</div>
+
         </div>
+
       </div>
+
+      
+
+      <!-- Project Text Column (Right Column) -->
+
+      <div style="flex: 2 1 350px;">
+
+        <div class="project-title" style="margin-top: 0; margin-bottom: 8px; font-weight: 700; color: #334155; font-size: 1.1em;">
+
+          Solvent selection enables sustainable and affordable lignin biocomposite for cement-free construction
+
+        </div>
+
+        <p class="project-body" style="margin-bottom: 10px;">
+
+          Cement-free construction materials are essential to reduce global carbon emissions, yet scalable alternatives remain limited. We report the development of a lignin-based biopolymer-bound soil composite (BSC), a novel cement-free material with mechanical properties comparable to lightweight concrete. To advance its scalability and environmental performance, we used a systematic framework for solvent selection in lignin biocomcomposite fabrication. 
+
+        </p>
+
+        <p class="project-body" style="margin-bottom: 10px;">
+
+          Applying this approach, we identified an acetic acid–water solvent system that speeds up manufacturing and enhances material quality. BSCs fabricated with this system exhibit increased strength (5.4 MPa vs. 3.7 MPa), attributed to acetylation of lignin. In addition, the acetic acid–water system dramatically reduces drying time compared with the alternative solvent, dimethyl sulfoxide (2 days vs. 14 days), enabling more efficient production. 
+
+        </p>
+
+        <p class="project-body" style="margin-bottom: 12px;">
+
+          Life cycle assessment reveals additional CO₂ sequestration and a 70% reduction in material cost relative to lignin biocomposite made using DMSO as the solvent. These improvements stem from solvent-induced modifications in lignin chemistry that enhance composite performance. This work demonstrates how both material design and rational solvent selection can pave the way for adoption of lignin-based composites as scalable, affordable, and low-carbon alternatives for the built environment.
+
+        </p>
+
+
+
+        <!-- Relevant Publications -->
+
+        <div class="project-citations" style="margin-bottom: 15px; font-size: 0.9em; border-top: 1px dashed #e2e8f0; padding-top: 10px;">
+
+          <div style="font-weight: 700; color: #1e293b; margin-bottom: 8px; text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.05em;">Relevant Publications:</div>
+
+          <div>
+
+            <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
+
+              B. H. Miao, D. Woo, A. C. Lesh, D. J. Loftus, M. D. Lepech. "Solvent selection enables sustainable and affordable lignin biocomposite for cement-free construction." <em>Cleaner Materials</em>, 2026.
+
+            </p>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+              <a href="https://doi.org/10.1016/j.clema.2026.100371" class="paper-doi-btn" target="_blank" style="margin-top: 0;">
+
+                🔗 View Publisher DOI
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
-    
-  </div>
-</div> <!-- /THEME 2 -->
+
+
 
   </div>
+
 </div>
+
+
 
 <!-- THEME 3 -->
+
 <div class="theme-block" style="border-left-color: #003B5C;">
+
   <div class="theme-title" style="color: #003B5C;">♻️ 3. Circular Construction Systems</div>
+
   <p class="theme-desc">
+
     We investigate recycling, reuse, and material recovery strategies to establish closed-loop construction systems where materials can be continuously repurposed rather than discarded.
+
   </p>
+
   
+
   <div class="project-list">
+
     <div class="project-card">
+
       <div class="project-title">Project Title A</div>
+
       <p class="project-body">Brief description of a specific project under this theme. Highlight the core methodology, materials used, or key performance outcomes.</p>
+
     </div>
+
     <div class="project-card">
+
       <div class="project-title">Project Title B</div>
+
       <p class="project-body">Brief description of another specific project under this theme.</p>
+
     </div>
+
   </div>
+
 </div>
+
+
 
 <!-- THEME 4 -->
+
 <div class="theme-block" style="border-left-color: #2E7D32;">
+
   <div class="theme-title" style="color: #2E7D32;">🤖 4. AI-Enabled Sensing and Smart Manufacturing</div>
+
   <p class="theme-desc">
+
     We integrate sensors, machine learning, and artificial intelligence to create intelligent materials capable of monitoring their manufacturing processes, detecting defects, and predicting mechanical performance throughout their service life.
+
   </p>
+
   
+
   <div class="project-list">
+
     <div class="project-card">
+
       <div class="project-title">Project Title A</div>
+
       <p class="project-body">Brief description of a specific project under this theme. Highlight the core methodology, materials used, or key performance outcomes.</p>
+
     </div>
+
     <div class="project-card">
+
       <div class="project-title">Project Title B</div>
+
       <p class="project-body">Brief description of another specific project under this theme.</p>
+
     </div>
+
   </div>
+
 </div>
+
+
 
 <!-- THEME 5 -->
+
 <div class="theme-block" style="border-left-color: #003B5C;">
+
   <div class="theme-title" style="color: #003B5C;">🔬 5. Multiscale Characterization and Predictive Modeling</div>
+
   <p class="theme-desc">
+
     We combine advanced characterization techniques, including microscopy and micro-computed tomography, with computational modeling to uncover structure–property relationships and enable predictive design of next-generation materials.
+
   </p>
+
   
+
   <div class="project-list">
+
     <div class="project-card">
+
       <div class="project-title">Project Title A</div>
+
       <p class="project-body">Brief description of a specific project under this theme. Highlight the core methodology, materials used, or key performance outcomes.</p>
+
     </div>
+
     <div class="project-card">
+
       <div class="project-title">Project Title B</div>
+
       <p class="project-body">Brief description of another specific project under this theme.</p>
+
     </div>
+
   </div>
+
 </div>
 
+
+
 <!-- COLLABORATIONS & OTHER PROJECTS -->
+
 <div class="collab-block">
+
   <div class="theme-title" style="color: #64748b; border-bottom-color: #cbd5e1;">🤝 Collaborations & Other Projects</div>
+
   <p class="theme-desc">
+
     In addition to our core lab themes, we actively collaborate with international academic institutions, industry partners, and cross-disciplinary research groups to accelerate the development of sustainable infrastructure.
+
   </p>
+
   
+
   <div class="project-list">
+
     <!-- COLLAB PROJECT 1 -->
+
     <div class="project-card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; background-color: #fafafa;">
+
       <!-- Project Image/Logo Placeholder (Left) -->
+
       <div style="flex: 1 1 150px; max-width: 200px; min-width: 150px; background-color: #f1f5f9; border-radius: 4px; display: flex; align-items: center; justify-content: center; min-height: 120px; border: 1px dashed #cbd5e1;">
+
         <span style="color: #94a3b8; font-size: 0.85em; text-align: center; padding: 10px;">Partner Logo / Project Image</span>
+
       </div>
+
       
+
       <!-- Project Text (Right) -->
+
       <div style="flex: 2 1 350px;">
+
         <div class="project-title" style="margin-top: 0; margin-bottom: 8px; font-weight: 700; color: #475569; font-size: 1.1em;">
+
           Interdisciplinary Circularity Assessment
+
         </div>
+
         <p class="project-body" style="margin-bottom: 10px;">
+
           A joint initiative evaluating the system-wide supply chain mechanics of bio-based materials. This project bridges experimental materials engineering with global logistics and environmental policy frameworks.
+
         </p>
-        <p style="font-size: 0.9em; color: #64748b; font-style: italic;">
+
+        <p class="project-body" style="font-size: 0.9em; color: #64748b; font-style: italic;">
+
           <strong>Collaborators:</strong> Department of Chemical Engineering / Industrial Ecology Group
+
         </p>
+
       </div>
+
     </div>
+
   </div>
-</div>
+
+</div> 
+
