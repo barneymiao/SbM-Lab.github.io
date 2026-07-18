@@ -47,6 +47,11 @@ where his research focuses on developing sustainable, intelligent, and circular 
 
 <p>
 His research has led to the development of novel lignin-based biopolymer composites and Engineered Biopolymer Composite (EBC), a carbon-negative alternative to conventional cementitious construction materials.
+
+<!-- Dissertation Link (Light Slate/Blue Style) -->
+<a href="https://purl.stanford.edu/tv890zb3854" class="paper-pdf-btn" target="_blank" style="margin-top: 5px;">
+  🎓 View Ph.D. Dissertation
+</a>
 </p>
 
 </div>
