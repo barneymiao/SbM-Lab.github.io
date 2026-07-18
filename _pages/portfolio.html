@@ -259,20 +259,20 @@ author_profile: true
   </div>
 </div>
 
-<!-- PROJECT 2 (Static Title Header + EBC Abstract Info + 2 Stacked Photos/Video + Publications) -->
+<!-- PROJECT 2 (Static Title Header + EBC Abstract Info + Wide Video Layout + Publications) -->
 <div class="project-card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
   
-  <!-- Project Images Stacking Vertically (Left Column) -->
+  <!-- Project Images & Video Layout Container -->
   <div style="flex: 1 1 200px; max-width: 250px; min-width: 180px; display: flex; flex-direction: column; gap: 15px;">
-    <!-- First Image Group -->
+    <!-- First Image Group (Normal Width) -->
     <div style="width: 100%;">
       <img src="{{ '/images/EBC_Bricks.png' | relative_url }}" alt="Engineered Biopolymer Composite bricks and blocks" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
       <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">EBC structural sample testing</div>
     </div>
     
-    <!-- Second Image/Video Group -->
+    <!-- Second Image/Video Group (Spans Entire Left Column Box Area) -->
     <div style="width: 100%;">
-      <video autoplay loop muted playsinline style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px; display: block;">
+      <video autoplay loop muted playsinline style="width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px; display: block;">
         <source src="{{ '/images/DIC_Experiment.mp4' | relative_url }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -300,10 +300,10 @@ author_profile: true
     <div class="project-citations" style="margin-bottom: 15px; font-size: 0.9em; border-top: 1px dashed #e2e8f0; padding-top: 10px;">
       <div style="font-weight: 700; color: #1e293b; margin-bottom: 8px; text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.05em;">Relevant Publications:</div>
       
-<!-- Citation 1 -->
+      <!-- Citation 1 -->
       <div style="margin-bottom: 12px;">
         <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
-        B. H. Miao, A. C. Lesh, P. Hart, D. J. Loftus, M. D. Lepech. "Engineered biopolymer composite: an affordable, cement-free material for sustainable construction." <em>Nature-Inspired Materials</em>, 2026.
+          <strong>J3.</strong> B. H. Miao, A. C. Lesh, P. Hart, D. J. Loftus, M. D. Lepech. "Engineered biopolymer composite: an affordable, cement-free material for sustainable construction." <em>Nature-Inspired Materials</em>, 2026.
         </p>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <a href="https://doi.org/10.1117/12.3090155" class="paper-doi-btn" target="_blank" style="margin-top: 0;">
@@ -315,7 +315,7 @@ author_profile: true
       <!-- Citation 2 (Under Review with GitHub link) -->
       <div>
         <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
-         B. H. Miao, A. C. Lesh, P. Hart, S. Song, D. J. Loftus, M. D. Lepech. "Engineered Biopolymer Composite, an affordable carbon-negative alternative to concrete." <em>Nature-Inspired Materials</em>, 2026.
+          <strong>J5.</strong> B. H. Miao, A. C. Lesh, M. D. Lepech. "Microstructural and multiscale characterization of plant-cell-wall-inspired cohesion in polymer matrices." <em>Advanced Functional Materials</em>, 2026. <span style="color: #4b5563; font-weight: 600; font-style: italic;">Under Review.</span>
         </p>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
           <a href="https://github.com/your-github-username/your-repo-name" class="paper-github-btn" target="_blank" style="margin-top: 0;">
