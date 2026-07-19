@@ -949,22 +949,22 @@ author_profile: true
       <!-- Project Image Column (Left Column - Multi-Image Stack) -->
       <div style="flex: 1 1 320px; max-width: 350px; min-width: 180px; display: flex; flex-direction: column; gap: 15px;">
         
-        <!-- Image 2: Sensor/AI Setup (Update filename as needed) -->
-        <div style="width: 100%;">
-          <img src="{{ '/images/Test_layout.png' | relative_url }}" alt="Vibration sensing system configuration" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
-          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Non-destructive vibration-based sensing system test setup</div>
-        </div>
-
         <!-- Image 1: Impact Response GIF -->
         <div style="width: 100%;">
           <img src="{{ '/images/Impact_Response_Animation_Zoomed.gif' | relative_url }}" alt="Time-series response of biopolymer-bound composite" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
           <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Time-series non-destructive vibration response of wet BSC material.</div>
         </div>
-        
-        <!-- Image 3: Feature Extraction / Model Performance (Update filename as needed) -->
+
+        <!-- Image 2: Sensor/AI Setup -->
         <div style="width: 100%;">
-          <img src="{{ '/images/TSNE_Visualization.png' | relative_url }}" alt="AI defect detection framework" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
-          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Using AI-driven methods, we can detect and characterize defects in composites while they are still wet.</div>
+          <img src="{{ '/images/ai_sensing_setup.png' | relative_url }}" alt="Vibration sensing system configuration" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Non-destructive vibration-based sensing system configuration.</div>
+        </div>
+
+        <!-- Image 3: Feature Extraction / Model Performance -->
+        <div style="width: 100%;">
+          <img src="{{ '/images/ai_model_results.png' | relative_url }}" alt="AI defect detection framework" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Physics-based feature engineering and early defect detection performance.</div>
         </div>
       </div>
       
@@ -983,15 +983,32 @@ author_profile: true
         <!-- Relevant Publications -->
         <div class="project-citations" style="margin-bottom: 15px; font-size: 0.9em; border-top: 1px dashed #e2e8f0; padding-top: 10px;">
           <div style="font-weight: 700; color: #1e293b; margin-bottom: 8px; text-transform: uppercase; font-size: 0.85em; letter-spacing: 0.05em;">Relevant Publications:</div>
-          <div>
+          
+          <!-- Publication 1 (Published) -->
+          <div style="margin-bottom: 12px;">
             <p style="margin: 0 0 6px 0; color: #475569; line-height: 1.4;">
               B. H. Miao, A. C. Lesh, P. Hart, D. J. Loftus, M. D. Lepech. "AI-powered non-destructive testing for smart manufacturing of carbon-negative biopolymer-bound soil composite." <em>Communications Engineering</em>, 2026.
             </p>
-            <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px;">
+            <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px;">
               <a href="https://doi.org/10.1038/s44172-026-00621-8" class="paper-doi-btn" target="_blank" style="margin-top: 0;">🔗 View Publisher DOI</a>
-              <a href="{{ '/files/Miao et al. - 2026 - AI-powered non-destructive testing for smart manufacturing of carbon-negative biopolymer-bound soil composite.pdf' | relative_url }}" class="paper-doi-btn" target="_blank" style="margin-top: 0; background-color: #f1f5f9; color: #334155; border: 1px solid #cbd5e1;">📄 Download PDF</a>
+              <a href="{{ '/assets/pdf/miao_2026_comms_eng.pdf' | relative_url }}" class="paper-doi-btn" target="_blank" style="margin-top: 0; background-color: #f1f5f9; color: #334155; border: 1px solid #cbd5e1;">📄 Download PDF</a>
             </div>
           </div>
+
+          <!-- Publication 2 (In Prep) -->
+          <div style="margin-bottom: 10px;">
+            <p style="margin: 0; color: #475569; line-height: 1.4;">
+              J9. B. H. Miao, Y. Dong, A. Theissler, A. C. Lesh, H. Noh, D. J. Loftus. "Acoustic vibration sensing for nondestructive characterization of strength evolution in bio-based composites." <em>In preparation</em>.
+            </p>
+          </div>
+
+          <!-- Publication 3 (In Prep) -->
+          <div>
+            <p style="margin: 0; color: #475569; line-height: 1.4;">
+              J10. B. H. Miao, Y. Dong, A. Theissler, A. C. Lesh, H. Noh, D. J. Loftus. "Life-Cycle Monitoring of Engineered Biopolymer Composite using vibration-based sensing." <em>In preparation</em>.
+            </p>
+          </div>
+
         </div>
       </div>
     </div>
