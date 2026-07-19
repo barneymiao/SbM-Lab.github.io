@@ -886,11 +886,19 @@ author_profile: true
     <!-- PROJECT 1: RECYCLING LIGNIN-BASED BIOCOMPOSITES -->
     <div class="project-card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
       
-      <!-- Project Image Column (Left Column) -->
+      <!-- Project Image Column (Left Column - Multi-Image Stack) -->
       <div style="flex: 1 1 320px; max-width: 350px; min-width: 180px; display: flex; flex-direction: column; gap: 15px;">
+        
+        <!-- Image 1: MicroCT Analysis -->
         <div style="width: 100%;">
-          <img src="{{ '/images/MicroCT.png' | relative_url }}" alt="Recycled biopolymer-bound soil composite specimen" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
-          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">MicroCT imaging and statistical descriptors calculated for biopolymer-bound composites using lignin.</div>
+          <img src="{{ '/images/MicroCT.png' | relative_url }}" alt="Micro-CT reconstruction of composite" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Micro-CT imaging and statistical descriptors calculated for biopolymer-bound composites using lignin.</div>
+        </div>
+
+        <!-- Image 2: EBC Specimen Evaluation -->
+        <div style="width: 100%;">
+          <img src="{{ '/images/Recycling_Descriptors.png' | relative_url }}" alt="Recycled biopolymer-bound soil composite specimen" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">Biopolymer-bound composite specimen evaluated for mechanical and microstructural circularity.</div>
         </div>
       </div>
       
@@ -981,7 +989,7 @@ author_profile: true
             </p>
             <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px;">
               <a href="https://doi.org/10.1038/s44172-026-00621-8" class="paper-doi-btn" target="_blank" style="margin-top: 0;">🔗 View Publisher DOI</a>
-              <a href="{{ '/assets/pdf/miao_2026_comms_eng.pdf' | relative_url }}" class="paper-doi-btn" target="_blank" style="margin-top: 0; background-color: #f1f5f9; color: #334155; border: 1px solid #cbd5e1;">📄 Download PDF</a>
+              <a href="{{ '/files/Miao et al. - 2026 - AI-powered non-destructive testing for smart manufacturing of carbon-negative biopolymer-bound soil composite.pdf' | relative_url }}" class="paper-doi-btn" target="_blank" style="margin-top: 0; background-color: #f1f5f9; color: #334155; border: 1px solid #cbd5e1;">📄 Download PDF</a>
             </div>
           </div>
         </div>
@@ -995,41 +1003,59 @@ author_profile: true
 
 
 <!-- THEME 5 -->
-
 <div class="theme-block" style="border-left-color: #003B5C;">
-
   <div class="theme-title" style="color: #003B5C;">🔬 5. Multiscale Characterization and Predictive Modeling</div>
-
   <p class="theme-desc">
-
     We combine advanced characterization techniques, including microscopy and micro-computed tomography, with computational modeling to uncover structure–property relationships and enable predictive design of next-generation materials.
-
   </p>
-
   
-
   <div class="project-list">
+    
+    <!-- PROJECT 1: MULTISCALE EBC CHARACTERIZATION (Combined CT/SEM) -->
+    <div class="project-card" style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+      
+      <!-- Project Image Column (Left Column - Multi-Image Stack) -->
+      <div style="flex: 1 1 320px; max-width: 350px; min-width: 180px; display: flex; flex-direction: column; gap: 15px;">
+        
+        <!-- Replaced Image 1: Side-by-Side Row for EBC_Animation2.gif and EBC_Animation3.gif -->
+        <div style="width: 100%;">
+          <div style="display: flex; gap: 8px; justify-content: space-between; align-items: center; width: 100%;">
+            <div style="flex: 1;">
+              <img src="{{ '/images/EBC_Animation2.gif' | relative_url }}" alt="Engineered Biopolymer Composite 3D reconstruction animation sequence A" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
+            </div>
+            <div style="flex: 1;">
+              <img src="{{ '/images/EBC_Animation3.gif' | relative_url }}" alt="Engineered Biopolymer Composite 3D reconstruction animation sequence B" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
+            </div>
+          </div>
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2; margin-top: 6px;">Deep-learning volumetric segmentation and spatial probability functions from 3D Micro-CT scans.</div>
+        </div>
 
-    <div class="project-card">
-
-      <div class="project-title">Project Title A</div>
-
-      <p class="project-body">Brief description of a specific project under this theme. Highlight the core methodology, materials used, or key performance outcomes.</p>
-
+        <!-- Image 2: FEG-SEM and EDS Interfacial Boundary Imaging -->
+        <div style="width: 100%;">
+          <img src="{{ '/images/SEM_EDS_Microscopy.png' | relative_url }}" alt="FEG-SEM Interfacial Boundary Imaging" style="width: 100%; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 4px;" />
+          <div style="font-size: 0.75em; color: #64748b; text-align: center; font-style: italic; line-height: 1.2;">High-resolution desktop FEG-SEM imaging and EDS elemental analysis of diamond-knife polished interfaces.</div>
+        </div>
+      </div>
+      
+      <!-- Project Text Column (Right Column) -->
+      <div style="flex: 2 1 350px;">
+        <div class="project-title" style="margin-top: 0; margin-bottom: 8px; font-weight: 700; color: #334155; font-size: 1.1em;">
+          Multiscale Mechanics and Structural Topology Quantification of Engineered Biopolymer Composites
+        </div>
+        <p class="project-body" style="margin-bottom: 10px;">
+          Uncovering the micro-structural mechanics of Engineered Biopolymer Composites (EBC) requires tracking architecture across multiple scales—from 3D volumetric pore connectivity down to sub-micron binder-aggregate interfaces. At the macro/meso scale, this research utilizes high-resolution X-ray micro-computed tomography (micro-CT) to isolate pristine material physics. Scanning at an ultra-fine 1.71 μm voxel size using a Zeiss Versa XRM500 microscope (60 kV, 7 W), we compile approximately 1,000 spatial slices through the specimen core to eliminate boundary edge artifacts. 
+        </p>
+        <p class="project-body" style="margin-bottom: 10px;">
+          To parse these heterogeneous datasets, a fully convolutional densely connected network (FC-DenseNet) is implemented within Dragonfly for automated semantic voxel classification into distinct aggregate, biopolymer, and void regions. The segmented spaces are quantified using Lineal Path (LP) functions to isolate phase size connectivity, and Two-Point (TP) spatial probability functions to evaluate aggregate-biopolymer clustering behaviors. Statistical divergence between varying manufacturing pre-compaction states is rigorously established by computing L2 norm curve distances and functional Wasserstein distribution distances across complete curve ensembles.
+        </p>
+        <p class="project-body" style="margin-bottom: 12px;">
+          Complementing this volumetric data, sub-micron interfacial physics are mapped using an advanced block-face ultra-microtome preparation technique. Cylindrical EBC elements are ground to a 3 mm cube, vacuum-embedded in low-viscosity epoxy resin within BEEM capsules, and milled on a Leica TXP device. The resulting 1 mm pyramidal face is polished at room temperature with a 45° DiATOME diamond knife on a Leica Enuity ultra-microtome. This ultra-flat face allows for direct characterization in a Thermo Fisher Scientific Phenom Pharos desktop Field Emission Gun Scanning Electron Microscope (FEG-SEM). By operating in low-vacuum and low-kV modes, we map high-contrast interfacial binder details without non-conductive surface coatings, verifying chemical phase boundaries inline via Energy Dispersive Spectrometry (EDS).
+        </p>
+      </div>
     </div>
-
-    <div class="project-card">
-
-      <div class="project-title">Project Title B</div>
-
-      <p class="project-body">Brief description of another specific project under this theme.</p>
-
-    </div>
-
+    
   </div>
-
 </div>
-
 
 
 <!-- COLLABORATIONS & OTHER PROJECTS -->
