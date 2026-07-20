@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /year-archive/
-title: "Blog posts"
+title: "News"
 author_profile: true
 redirect_from:
   - /wordpress/blog-posts/
@@ -48,10 +48,14 @@ redirect_from:
         </div>
         
         <div class="news-excerpt" style="font-size: 0.95em; color: #475569; line-height: 1.5; margin: 0;">
-          {% if post.excerpt %}
-            {{ post.excerpt | strip_html | truncatewords: 40 }}
+          {% if forloop.first %}
+            Paper Published: New research on the life cycle assessment and structural design of LignoBlock, a cement-free, potentially carbon-negative biopolymer composite, has been officially published in the Journal of Cleaner Production.
           {% else %}
-            {{ post.content | strip_html | truncatewords: 40 }}
+            {% if post.excerpt %}
+              {{ post.excerpt | strip_html | truncatewords: 40 }}
+            {% else %}
+              {{ post.content | strip_html | truncatewords: 40 }}
+            {% endif %}
           {% endif %}
         </div>
       </div>
